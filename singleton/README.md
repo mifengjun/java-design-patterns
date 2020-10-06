@@ -319,4 +319,4 @@ public interface Collection<E> extends Iterable<E> {
 
 　　欢迎大家关注我的个人公众号：**星尘的一个朋友** 刚刚开始弄，希望与你一起成长！
 
-![星尘的一个朋友](D:/IdeaProjects/java-design-patterns/images/qrcode_for_gh_6d8fc35da824_258.jpg)
+![星尘的一个朋友](../images/qrcode_for_gh_6d8fc35da824_258.jpg)
