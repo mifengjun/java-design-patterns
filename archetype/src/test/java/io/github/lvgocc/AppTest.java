@@ -3,17 +3,16 @@ package io.github.lvgocc;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 /**
+ * https://lvgocc.github.io
+ * lvgocc-java-design-patterns-archetype auto generate
+ * <p>
  * Unit test for simple App.
  */
-public class AppTest {
-    /**
-     * Rigorous Test :-)
-     */
+class AppTest {
+
     @Test
-    public void shouldAnswerWithTrue() {
-        assertTrue(true);
+    void main() {
+        App.main(new String[]{});
     }
 }
