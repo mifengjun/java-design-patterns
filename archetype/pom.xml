@@ -7,7 +7,18 @@
         <groupId>io.github.lvgocc</groupId>
         <version>1.0</version>
     </parent>
+
     <artifactId>lvgocc-java-design-patterns</artifactId>
+
     <modelVersion>4.0.0</modelVersion>
-    <url>https://github.com/lvgocc/java-design-patterns/lvgocc-java-design-patterns</url>
+
+    <url>https://github.com/lvgocc/java-design-patterns/tree/main/lvgocc-java-design-patterns</url>
+
+    <developers>
+        <developer>
+            <name>lvgo</name>
+            <email>lvgorice@gmail.com</email>
+            <url>http://lvgo.org</url>
+        </developer>
+    </developers>
 </project>
