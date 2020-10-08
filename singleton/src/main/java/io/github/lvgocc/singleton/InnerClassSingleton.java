@@ -1,5 +1,7 @@
 package io.github.lvgocc.singleton;
 
+import java.io.Serializable;
+
 /**
  * 内部类单例模式
  * 这个模式综合使用了Java的类级内部类和多线程缺省同步锁的知识，
@@ -19,9 +21,13 @@ package io.github.lvgocc.singleton;
  * @date 2020/10/6 14:22
  * @since 1.0.0
  */
-public class InnerClassSingleton {
+public class InnerClassSingleton implements Serializable {
 
     private InnerClassSingleton() {
+        // 解决反射创建对象破解单例模式
+        if (InnerClassSingletonBuild.innerClassSingleton != null) {
+            throw new IllegalStateException("Already initialized");
+        }
     }
 
     public static InnerClassSingleton getInstance() {
@@ -32,4 +38,10 @@ public class InnerClassSingleton {
         private static InnerClassSingleton innerClassSingleton = new InnerClassSingleton();
     }
 
+    /**
+     * 解决反序列化创建对象破坏单例模式
+     */
+    private Object readResolve() {
+        return InnerClassSingletonBuild.innerClassSingleton;
+    }
 }

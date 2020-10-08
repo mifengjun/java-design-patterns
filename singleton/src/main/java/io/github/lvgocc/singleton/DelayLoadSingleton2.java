@@ -1,5 +1,7 @@
 package io.github.lvgocc.singleton;
 
+import java.io.Serializable;
+
 /**
  * 延迟加载模式1（懒汉式）
  * 线程安全, 仅有1个实例
@@ -8,7 +10,7 @@ package io.github.lvgocc.singleton;
  * @date 2020/10/6 13:11
  * @since 1.0.0
  */
-public class DelayLoadSingleton2 {
+public class DelayLoadSingleton2 implements Serializable {
 
     /**
      * 增加 volatile 修饰，解决变量可见性问题

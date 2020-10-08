@@ -1,5 +1,7 @@
 package io.github.lvgocc.singleton;
 
+import java.io.Serializable;
+
 /**
  * 立即加载模式 (饿汉式)
  *
@@ -7,7 +9,7 @@ package io.github.lvgocc.singleton;
  * @date 2020/10/6 10:44
  * @since 1.0.0
  */
-public class StraightwaySingleton {
+public class StraightwaySingleton implements Serializable {
 
     private static StraightwaySingleton straightwaySingleton = new StraightwaySingleton();
 

@@ -11,26 +11,26 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 /**
- * 双重检查锁单例 test
+ * 内部类单例模式 test
  *
  * @author lvgorice@gmail.com
- * @date 2020/10/8 16:13
+ * @date 2020/10/8 19:23
  * @since 1.0.0
  */
-class DCLSingletonTest {
+class InnerClassSingletonTest {
 
     @Test
     void getInstance() {
-        DCLSingleton instance1 = DCLSingleton.getInstance();
-        DCLSingleton instance2 = DCLSingleton.getInstance();
-        Assertions.assertEquals(instance1, instance2);
+        final InnerClassSingleton instance1 = InnerClassSingleton.getInstance();
+        final InnerClassSingleton instance2 = InnerClassSingleton.getInstance();
+        Assertions.assertSame(instance1, instance2);
     }
 
     @Test
-    void DCLSingleton() {
-        Class<DCLSingleton> singletonClass = DCLSingleton.class;
+    void InnerClassSingleton() {
+        Class<InnerClassSingleton> singletonClass = InnerClassSingleton.class;
         Assertions.assertThrows(InvocationTargetException.class, () -> {
-            Constructor<DCLSingleton> declaredConstructor = singletonClass.getDeclaredConstructor();
+            Constructor<InnerClassSingleton> declaredConstructor = singletonClass.getDeclaredConstructor();
             declaredConstructor.setAccessible(true);
             declaredConstructor.newInstance();
         });
@@ -38,13 +38,13 @@ class DCLSingletonTest {
 
     @Test
     void readResolve() {
-        DCLSingleton instance = DCLSingleton.getInstance();
+        InnerClassSingleton instance = InnerClassSingleton.getInstance();
 
-        try (FileOutputStream fileOutputStream = new FileOutputStream(DCLSingleton.class.getResource("").getPath() + "singleton.txt");
+        try (FileOutputStream fileOutputStream = new FileOutputStream(InnerClassSingleton.class.getResource("").getPath() + "InnerClassSingleton.txt");
              final ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream)) {
             objectOutputStream.writeObject(instance);
-            final ObjectInputStream objectInputStream = new ObjectInputStream(DCLSingleton.class.getResourceAsStream("singleton.txt"));
-            final DCLSingleton o = (DCLSingleton) objectInputStream.readObject();
+            final ObjectInputStream objectInputStream = new ObjectInputStream(InnerClassSingleton.class.getResourceAsStream("InnerClassSingleton.txt"));
+            final InnerClassSingleton o = (InnerClassSingleton) objectInputStream.readObject();
             Assertions.assertEquals(instance, o);
         } catch (IOException | SecurityException | ClassNotFoundException e) {
             e.printStackTrace();
