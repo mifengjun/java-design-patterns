@@ -10,6 +10,7 @@
     <version>1.0</version>
     <modules>
         <module>singleton</module>
+        <module>factory</module>
     </modules>
 
     <name>java-design-patterns</name>

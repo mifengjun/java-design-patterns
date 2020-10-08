@@ -21,7 +21,7 @@
 
 　　从此掀起了软件工程界的“设计模式”浪潮，使越来越多的开发者受益，同时涌现出了越来越多的设计模式。而这 4 位作者在软件领域小组名称 Gang of Four 四人组（四人帮），后来设计模式也以此匿名著称 GOF。
 
-![gof](./images/gof.jpg)
+![gof](https://i.loli.net/2020/10/08/CHaE8bzvX4fScYA.jpg)
 
 ## 设计模式要做的事情
 
@@ -167,7 +167,7 @@
 
 - [x] [1. 单例（Singleton）模式: 某个类只能生成一个实例，该类提供了一个全局访问点供外部获取该实例，其拓展是有限多例模式。](https://github.com/lvgocc/java-design-patterns/tree/main/singleton)
 - [ ] 2.原型（Prototype）模式：将一个对象作为原型，通过对其进行复制而克隆出多个和原型类似的新实例。
-- [ ] 3.工厂（Factory）模式：定义一个用于创建产品的接口，由子类决定生产什么产品。
+- [x] [3. 工厂（Factory）模式：定义一个用于创建产品的接口，由子类决定生产什么产品。](https://github.com/lvgocc/java-design-patterns/tree/main/singleton)
 - [ ] 4.抽象工厂（AbstractFactory）模式：提供一个创建产品族的接口，其每个子类可以生产一系列相关的产品。
 - [ ] 5.建造者（Builder）模式：将一个复杂对象分解成多个相对简单的部分，然后根据不同需要分别创建它们，最后构建成该复杂对象。
 
@@ -206,7 +206,7 @@
 
 ​		欢迎大家关注我的个人公众号：**星尘的一个朋友** 刚刚开始弄，希望与你一起成长！
 
-![星尘的一个朋友](./images/gzhqr_code.png)
+![星尘的一个朋友](https://i.loli.net/2020/10/08/aKPT1X4B6ZMV7YG.png)
 
 
 # 参考文献
@@ -216,4 +216,6 @@
 - [http://c.biancheng.net/design_pattern/](http://c.biancheng.net/design_pattern/)
 
 - [https://refactoringguru.cn/design-patterns](https://refactoringguru.cn/design-patterns)
+
+
 
