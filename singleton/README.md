@@ -31,7 +31,7 @@
 
 ## 单例模式结构📐
 
-![单例模式结构类图 https://lvgocc.github.io](../images/singleton/singleton.png)
+![单例模式结构类图 https://lvgocc.github.io](https://i.loli.net/2020/10/08/r1BPuFCDx5XNO2o.png)
 
 **📢要点**
 
@@ -162,6 +162,8 @@ public class StraightwaySingleton {
 ```
 
 　　立即加载方式是通过 classloader 来完成单例的创建，即当类第一次被主动调用初始化的时候。即使该类你不会使用（但是❗不用你还要设计成单例，我觉得这种方式已经可以满足一般的业务场景了）
+
+**Runtime.java 中使用该种方式实现**
 
 > 拓展类的装载过程：加载 -  验证 - 准备 - 解析 - 初始化 - 使用 -  卸载
 
@@ -319,4 +321,4 @@ public interface Collection<E> extends Iterable<E> {
 
 　　欢迎大家关注我的个人公众号：**星尘的一个朋友** 刚刚开始弄，希望与你一起成长！
 
-![星尘的一个朋友](../images/gzhqr_code.png)
+![星尘的一个朋友](https://i.loli.net/2020/10/08/2ZVKPRsQ9TyDmki.png)

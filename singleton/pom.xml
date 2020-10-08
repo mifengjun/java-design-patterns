@@ -12,4 +12,12 @@
     <artifactId>singleton</artifactId>
 
     <url>https://github.com/lvgocc/java-design-patterns/singleton</url>
+
+    <developers>
+        <developer>
+            <name>lvgo</name>
+            <email>lvgorice@gmail.com</email>
+            <url>http://lvgo.org</url>
+        </developer>
+    </developers>
 </project>
