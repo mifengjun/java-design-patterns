@@ -80,42 +80,42 @@
 	</tr >
 	<tr >
 	    <td rowspan="5">创建型(5)</td>
-	    <td bgcolor="#1e90ff">单例</td>
+	    <td>单例</td>
         <td rowspan="7">结构型(7)</td>
-        <td bgcolor="#1e90ff">代理</td>
+        <td>代理</td>
         <td rowspan="11">行为型(11)</td>
-        <td bgcolor="#1e90ff">模板方法</td>
+        <td>模板方法</td>
 	</tr>
     <tr>
         <td>原型</td>
-        <td bgcolor="#1e90ff">适配器</td>
-        <td bgcolor="#1e90ff">策略</td>
+        <td>适配器</td>
+        <td>策略</td>
     </tr>
     <tr>
-        <td bgcolor="#1e90ff">建造者</td>
+        <td>建造者</td>
         <td>桥接</td>
         <td>命令</td>
     </tr>
     <tr>
-        <td bgcolor="#1e90ff">工厂</td>
+        <td>工厂</td>
         <td>装饰</td>
-        <td bgcolor="#1e90ff">职责链</td>
+        <td>职责链</td>
     </tr>
     <tr>
-        <td bgcolor="#1e90ff">抽象工厂</td>
+        <td>抽象工厂</td>
         <td>外观/门面</td>
         <td>状态</td>
     </tr>    
     <tr>
         <td></td>        
         <td></td>
-        <td bgcolor="#1e90ff">享元</td>
-        <td bgcolor="#1e90ff">观察者</td>
+        <td>享元</td>
+        <td>观察者</td>
     </tr>  
     <tr>
         <td></td>        
         <td></td>
-        <td bgcolor="#1e90ff">组合</td>
+        <td>组合</td>
         <td>中介者</td>
     </tr>    
     <tr>
@@ -167,7 +167,7 @@
 
 - [x] [1. 单例（Singleton）模式: 某个类只能生成一个实例，该类提供了一个全局访问点供外部获取该实例，其拓展是有限多例模式。](https://github.com/lvgocc/java-design-patterns/tree/main/singleton)
 - [ ] 2.原型（Prototype）模式：将一个对象作为原型，通过对其进行复制而克隆出多个和原型类似的新实例。
-- [x] [3. 工厂（Factory）模式：定义一个用于创建产品的接口，由子类决定生产什么产品。](https://github.com/lvgocc/java-design-patterns/tree/main/singleton)
+- [x] [3. 工厂（Factory）模式：定义一个用于创建产品的接口，由子类决定生产什么产品。](https://github.com/lvgocc/java-design-patterns/tree/main/factory)
 - [ ] 4.抽象工厂（AbstractFactory）模式：提供一个创建产品族的接口，其每个子类可以生产一系列相关的产品。
 - [ ] 5.建造者（Builder）模式：将一个复杂对象分解成多个相对简单的部分，然后根据不同需要分别创建它们，最后构建成该复杂对象。
 
