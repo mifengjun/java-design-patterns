@@ -1,5 +1,7 @@
 package io.github.lvgocc.singleton;
 
+import java.io.Serializable;
+
 /**
  * double check lock singleton
  * <p>
@@ -9,7 +11,7 @@ package io.github.lvgocc.singleton;
  * @date 2020/10/6 14:09
  * @since 1.0.0
  */
-public class DCLSingleton {
+public class DCLSingleton implements Serializable {
     private static volatile DCLSingleton dclSingleton;
 
     private DCLSingleton() {
