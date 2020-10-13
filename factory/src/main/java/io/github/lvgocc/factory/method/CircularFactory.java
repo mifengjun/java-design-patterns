@@ -9,7 +9,7 @@ import io.github.lvgocc.factory.util.ThreadUtil;
  * @date 2020/10/8 23:27
  * @since 1.0.0
  */
-public class CircularFactory extends AbstractFactory {
+public class CircularFactory extends AbstractGraphicalFactory {
     /**
      * 将创建复杂的圆形过程封装到工厂里。
      * 1. 选定圆形位置；

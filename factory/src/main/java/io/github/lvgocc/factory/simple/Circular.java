@@ -7,5 +7,5 @@ package io.github.lvgocc.factory.simple;
  * @date 2020/10/8 21:55
  * @since 1.0.0
  */
-public class Circular extends AbstractGraphical {
+public class Circular extends Graphical {
 }

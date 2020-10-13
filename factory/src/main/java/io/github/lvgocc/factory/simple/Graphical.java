@@ -7,7 +7,7 @@ package io.github.lvgocc.factory.simple;
  * @date 2020/10/8 21:33
  * @since 1.0.0
  */
-public abstract class AbstractGraphical {
+public abstract class Graphical {
     @Override
     public String toString() {
         return this.getClass().getSimpleName();

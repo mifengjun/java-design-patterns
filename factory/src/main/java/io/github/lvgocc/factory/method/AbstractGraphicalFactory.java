@@ -10,8 +10,8 @@ import org.slf4j.LoggerFactory;
  * @date 2020/10/8 23:16
  * @since 1.0.0
  */
-public abstract class AbstractFactory {
-    Logger logger = LoggerFactory.getLogger(AbstractFactory.class);
+public abstract class AbstractGraphicalFactory {
+    Logger logger = LoggerFactory.getLogger(AbstractGraphicalFactory.class);
 
     /**
      * 创建一个图形

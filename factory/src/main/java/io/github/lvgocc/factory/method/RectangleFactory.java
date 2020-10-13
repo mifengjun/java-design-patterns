@@ -9,7 +9,7 @@ import io.github.lvgocc.factory.util.ThreadUtil;
  * @date 2020/10/8 23:52
  * @since 1.0.0
  */
-public class RectangleFactory extends AbstractFactory {
+public class RectangleFactory extends AbstractGraphicalFactory {
     /**
      * 通过工厂创建一个复杂的矩形
      *

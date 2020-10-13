@@ -14,7 +14,7 @@ public class GraphicalFactory {
     public static final int TRIANGLE = 2;
 
 
-    public static AbstractGraphical create(int type) {
+    public static Graphical create(int type) {
         switch (type) {
             case CIRCULAR:
                 return new Circular();

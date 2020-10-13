@@ -14,7 +14,7 @@ class AbstractGraphicalTest {
 
     @Test
     void testToString() {
-        final AbstractGraphical abstractGraphical = new AbstractGraphical() {
+        final Graphical abstractGraphical = new Graphical() {
         };
         Assertions.assertEquals(abstractGraphical.toString(), "");
     }

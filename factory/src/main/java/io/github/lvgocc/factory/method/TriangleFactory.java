@@ -9,7 +9,7 @@ import io.github.lvgocc.factory.util.ThreadUtil;
  * @date 2020/10/8 23:52
  * @since 1.0.0
  */
-public class TriangleFactory extends AbstractFactory {
+public class TriangleFactory extends AbstractGraphicalFactory {
 
     /**
      * 通过三角形工厂创建一个复杂的三角形
