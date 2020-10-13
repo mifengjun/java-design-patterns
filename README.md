@@ -217,5 +217,5 @@
 
 - [https://refactoringguru.cn/design-patterns](https://refactoringguru.cn/design-patterns)
 
-
+- [https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns](https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns)
 

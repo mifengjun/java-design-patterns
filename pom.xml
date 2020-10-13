@@ -11,6 +11,7 @@
     <modules>
         <module>singleton</module>
         <module>factory</module>
+        <module>abstract-factory</module>
     </modules>
 
     <name>java-design-patterns</name>
