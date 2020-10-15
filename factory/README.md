@@ -1,6 +1,8 @@
 # 工厂模式 🏗
 
-> [定义一个用于创建产品的接口，由子类决定生产什么产品。](https://github.com/lvgocc/java-design-patterns/tree/main/factory)
+
+
+>定义一个用于创建产品的接口，由子类决定生产什么产品。
 
 
 
@@ -31,7 +33,7 @@
 
 
 
-![通过 idea UML 工具构建](simple-factory-UML.png)
+![通过 idea UML 工具构建](https://i.loli.net/2020/10/13/RbNwGdVjuQAnkY9.png)
 
 
 
@@ -155,7 +157,7 @@ public class GraphicalFactory {
 
 　　当我们将上面的简单工厂模式中的创建图形的方法抽象出来，将创建的过程延迟到子类中。满足了开闭原则的时候，那这就是工厂方法模式了。
 
-　　**工厂方法模式怎么理解呢，顾名思义，通过工厂的方法来创建对象，每个对象都由一个工厂来创建，怎么创建这个工厂说了算。**理解工厂方法模式对后面的抽象工厂理解可以说是“很精彩”
+　　**工厂方法模式怎么理解呢，顾名思义，通过工厂的方法来创建对象，每个对象都由一个工厂来创建，怎么创建这个工厂说了算**。理解工厂方法模式对后面的抽象工厂理解可以说是“很精彩”
 
 
 
@@ -165,13 +167,13 @@ public class GraphicalFactory {
 
 **工厂方法模式**的类图
 
-![](method-factory-UML.png)
+![](https://i.loli.net/2020/10/13/jdoIiGvwtP2JCFY.png)
 
 
 
 **简单工厂模式**的类图
 
-![通过 idea UML 工具构建](simple-factory-UML.png)
+![通过 idea UML 工具构建](https://i.loli.net/2020/10/13/RbNwGdVjuQAnkY9.png)
 
 
 
@@ -297,7 +299,7 @@ public class CircularFactory extends AbstractGraphicalFactory {
 
 　　**当我们所需要创建的对象使用频繁，创建过程较复杂，可能增加对象个数时，这无疑选择使用工厂方法模式。**
 
-当我们试图又上面的3个原则去选择使用工厂模式的时候应该要思考几个问题。如
+当我们试图用上面的3个原则去选择使用工厂模式的时候应该要思考几个问题。如
 
 1. 对象个数很少，创建不复杂。（new 关键字）
 
