@@ -61,7 +61,7 @@ public class IphoneElectronicsFactory implements ElectronicsFactory{
      */
     Phone creatPhone() {
         return new IPhone()
-    };
+    }
 }
 ```
 
@@ -78,7 +78,7 @@ public class MiPhoneElectronicsFactory implements ElectronicsFactory{
      */
     Phone creatPhone() {
         return new MiPhone()
-    };
+    }
 }
 ```
 
@@ -117,14 +117,14 @@ public class AppleElectronicsFactory implements ElectronicsFactory{
      */
     Phone creatPhone() {
         return new IPhone()
-    };
+    }
     
      /**
      * 生产一个苹果电脑
      */
     Computer creatComputer() {
         return new MACBook();
-    };
+    }
 }
 ```
 
@@ -141,14 +141,14 @@ public class MiElectronicsFactory implements ElectronicsFactory{
      */
     Phone creatPhone() {
         return new MiPhone()
-    };
+    }
     
      /**
      * 生产一个小米电脑
      */
     Computer creatComputer() {
         return new MiComputer();
-    };
+    }
 }
 ```
 
@@ -158,7 +158,7 @@ public class MiElectronicsFactory implements ElectronicsFactory{
 
 
 
-![](3-1Q1141559151S.gif)
+![](https://i.loli.net/2020/10/15/ojTOhcA9eB8X2IJ.gif)
 
 
 
@@ -167,6 +167,26 @@ public class MiElectronicsFactory implements ElectronicsFactory{
 > 来源：http://c.biancheng.net/view/1351.html
 
 
+
+## 抽象工厂类图 🖌
+
+![抽象工厂类图](https://i.loli.net/2020/10/16/9Rj52oePSYbqiry.png)
+
+
+
+## 具体代码 📄
+
+> 完整代码及单元测试结果 [https://github.com/lvgocc/java-design-patterns/tree/main/abstract-factory](https://github.com/lvgocc/java-design-patterns/tree/main/abstract-factory)
+
+代码在上面已经罗列过，这里就不在赘述，需要的同学可以移步上面链接。可以的话，给个star吧（脸皮厚的不行）
+
+## 总结 ✨
+
+
+抽象工厂与工厂方法模式为同一种设计思想，他们不同于简单工厂。因为看了很多资料，对这部分内容的描述各有千秋。所以我在这里也表达了自己的一些看法。参考内容感兴趣的小伙伴可以看一下，我们一起讨论一下是极好的
+- http://c.biancheng.net/view/1351.html
+- https://www.journaldev.com/1392/factory-design-pattern-in-java
+- https://www.journaldev.com/1418/abstract-factory-design-pattern-in-java
 
 再回到上面的两个定义：
 
@@ -188,21 +208,6 @@ public class MiElectronicsFactory implements ElectronicsFactory{
 **🔔如果觉得我没说明白的请联系我，非常乐意被打扰**
 
 ``如果上面星尘表述的内容没能讲清楚抽象工厂的概念，大家不要急。继续往下看。如果我说的还不明白，给我个机会，加我微信（lvgocc）或者公众号内私聊，直到聊清楚为止。你若不会，我愿受累，为了你，我愿意执着🐱‍💻。``
-
-
-
-## 抽象工厂类图 🖌
-
-![抽象工厂类图](abstract-factory-UML.png)
-
-
-
-## 具体代码 📄
-
-> 完整代码及单元测试结果 [https://github.com/lvgocc/java-design-patterns/tree/main/abstract-factory](https://github.com/lvgocc/java-design-patterns/tree/main/abstract-factory)
-
-代码在上面已经罗列过，这里就不在赘述，需要的同学可以移步上面链接。可以的话，给个star吧（脸皮厚的不行）
-
 
 
 ## 使用时机
