@@ -1,11 +1,13 @@
 package io.github.lvgocc.abstractfactory;
 
 /**
- * 二维图形
+ * 手机接口
  *
  * @author lvgorice@gmail.com
  * @version 1.0
- * @date 2020/10/13 19:03
+ * @date 2020/10/15 18:15
  */
-public class TwoDimensionalGraphics {
+public abstract class Phone {
+
+    abstract void launch();
 }
