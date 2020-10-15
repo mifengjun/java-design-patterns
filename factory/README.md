@@ -284,6 +284,8 @@ public class CircularFactory extends AbstractGraphicalFactory {
 
 ### JDK中的工厂设计模式示例
 
+>案例来源：https://www.journaldev.com/1392/factory-design-pattern-in-java
+
 1. java.util.Calendar，ResourceBundle和NumberFormat`getInstance()`方法使用Factory模式。
 2. `valueOf()` 包装器类（例如Boolean，Integer等）中的方法。
 
