@@ -1,3 +1,5 @@
+![工厂模式](https://i.loli.net/2020/10/17/miCrgRXSDIOyP3l.png)
+
 # 工厂模式 🏗
 
 
@@ -326,6 +328,8 @@ public class CircularFactory extends AbstractGraphicalFactory {
 
 　　[⭐https://github.com/lvgocc/java-design-patterns](https://github.com/lvgocc/java-design-patterns)
 
-　　欢迎大家关注我的个人公众号：**星尘的一个朋友** 亦或繁星、亦或尘埃。星尘，为了梦想，学习技术。
+　　**星尘的一个朋友** 亦或繁星、亦或尘埃。星尘，为了梦想，学习技术。
+  
+　　关注公众号，回复“加群”，和 lvgo 一起学习设计模式。坚决维护群内环境，给大家提供一个良好的学习交流环境。
 
 ![星尘的一个朋友](https://i.loli.net/2020/10/08/2ZVKPRsQ9TyDmki.png)
