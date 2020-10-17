@@ -1,3 +1,5 @@
+![clone-wordpress](https://i.loli.net/2020/10/17/q62IGUFY1xmdbw4.png)
+
 # 原型模式 🎭
 
 > 用一个已经创建的实例作为原型，通过复制该原型对象来创建一个和原型相同或相似的新对象。
@@ -10,7 +12,7 @@
 
 
 
-## 简单理解
+## 月饼？盗文章？ 🤔
 
 每年中秋节的时候，大家都会吃到自己心仪口味的样式各异的月饼，但是他是怎么生产出来的呢，我猜它应该是有一个模板，比如花边图案的月饼
 
@@ -20,11 +22,11 @@
 
 ==再比如说可恶的盗图、盗文章、盗视频的人，他们把原创内容拿回去改个名字，去掉水印，随便改改内容，就成了自己的了！？==
 
-
+![clone-wordpress1](https://i.loli.net/2020/10/17/koZI5pEbB8hmJHl.png)
 
 上面说的两个案例的行为都是在节省了创建时间，同时达到了自己的一些目的。而这在设计模式中，就叫做**原型模式**，为了解决一个对象的创建而出现的一种设计模式，归类在了创建型模式中。
 
-> 注意：在行为型模式中有着与之类似的一种模式——模版方法模式，是为了解决一件事情中的一系列操作而存在的一种模式，二者的区别在于，原型模式用于对象创建，模板方法模式用于事件行为约束。
+> 注意：在行为型模式中有着与之类似的一种模式——模版方法模式，是为了制定解决一件事情中的一系列操作约束而存在的一种模式，二者的区别在于，原型模式用于对象创建，模板方法模式用于事件行为约束。
 
 
 
@@ -67,7 +69,7 @@ public class Graphics implements Cloneable {
 }
 ```
 
-
+在上面的例子中，类中的对象类型都是基本类型，如果出现引用类型的时候，就会引发一个问题“浅克隆”，这会导致我们克隆出来的类会受原型中引用的类型影响，那我们如何才能规避这个问题做到“深克隆”呢​？
 
 
 
@@ -79,11 +81,8 @@ public class Graphics implements Cloneable {
 
 那在 java 代码中，我们怎么理解浅克隆🎭 、深克隆🎎 呢？
 
-> 这个道理和值传递和引用传递是一个意思。
 
-
-
-实现了 cloneable 接口，可以克隆一个区别于当前对象的另外一个新的对象，但对于对象中的引用，却不能进行克隆，你随得到了他的人，但你却得不到他的心，如果想要得到他的心怎么办？拿钱砸他！非也，你只要把他的心也克隆一份就可以了。但是前提是他的心允许克隆（实现了 cloneable 接口）。
+实现了 cloneable 接口，可以克隆一个区别于当前对象的另外一个新的对象，但对于对象中的引用，却不能进行克隆，你虽得到了他的人，但你却得不到他的心，如果想要得到他的心怎么办？拿钱砸他！非也，你只要把他的心也克隆一份就可以了。但是前提是他的心允许克隆（实现了 cloneable 接口）。
 
 
 
@@ -111,7 +110,7 @@ public class Graphics implements Cloneable {
 }
 ```
 
-
+引用类型没有实现 cloneable 接口
 
 ```java
 // 引用类型没有实现 cloneable 接口
@@ -152,8 +151,8 @@ class GraphicsTest {
 }
 ```
 
-
-
+**注意此时的引用对象 size 的值**
+修改引用类型内容导致 clone 类的内容也跟着发生了变化
 ```text
 graphics = Graphics[color='red', shape='circular', size=Size(5, 3)]
 clone = Graphics[color='blue', shape='square', size=Size(5, 3)]
@@ -206,6 +205,7 @@ class GraphicsTest {
         Size size = new Size(1, 2);
         Graphics graphics = new Graphics("red", "circular", size);
         Graphics clone = graphics.clone();
+        // 修改引用类型内容
         size.height = 3;
         size.width = 5;
         System.out.println("graphics = " + graphics);
@@ -218,7 +218,7 @@ class GraphicsTest {
 }
 ```
 
-
+**注意此时的引用对象 size 的值**
 
 ```text
 graphics = Graphics[color='red', shape='circular', size=Size(5, 3)]
@@ -259,6 +259,8 @@ clone = Graphics[color='blue', shape='square', size=Size(1, 2)]
 
 　　[⭐https://github.com/lvgocc/java-design-patterns](https://github.com/lvgocc/java-design-patterns)
 
-　　欢迎大家关注我的个人公众号：**星尘的一个朋友** 亦或繁星、亦或尘埃。星尘，为了梦想，学习技术。
+　　**星尘的一个朋友** 亦或繁星、亦或尘埃。星尘，为了梦想，学习技术。
+  
+　　关注公众号，回复“加群”，和 lvgo 一起学习设计模式。坚决维护群内环境，给大家提供一个良好的学习交流环境。
 
 ![星尘的一个朋友](https://i.loli.net/2020/10/08/2ZVKPRsQ9TyDmki.png)
