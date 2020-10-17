@@ -13,6 +13,7 @@
         <module>factory</module>
         <module>abstract-factory</module>
         <module>prototype</module>
+        <module>build</module>
     </modules>
 
     <name>java-design-patterns</name>
