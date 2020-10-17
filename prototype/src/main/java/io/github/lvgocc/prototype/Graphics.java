@@ -24,7 +24,9 @@ public class Graphics implements Cloneable {
 
     @Override
     protected Graphics clone() throws CloneNotSupportedException {
-        return (Graphics) super.clone();
+        Graphics clone = (Graphics) super.clone();
+        clone.size = size.clone();
+        return clone;
     }
 
     public String getColor() {

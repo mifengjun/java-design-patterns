@@ -4,7 +4,7 @@
 
 
 
-![来源：https://refactoringguru.cn/design-patterns/prototype](prototype-comic-1-zh.png)
+![来源：https://refactoringguru.cn/design-patterns/prototype](https://i.loli.net/2020/10/16/waBiVhAvyOptTE3.png)
 
 > 图片来源：https://refactoringguru.cn/design-patterns/prototype
 
@@ -14,17 +14,15 @@
 
 每年中秋节的时候，大家都会吃到自己心仪口味的样式各异的月饼，但是他是怎么生产出来的呢，我猜它应该是有一个模板，比如花边图案的月饼
 
-![月饼模板原型](O1CN012rNhEh1sSsKTgMbsf_!!3353405766.jpg_540x540Q50s50.jpg)
+![月饼模板原型](https://i.loli.net/2020/10/16/Lm9cNiTsrtSRMdl.jpg)
 
 他会创造出来一个月饼原型，当你想吃五仁的时候，就把里面的馅改成五仁的，当你想吃蛋黄的（自己准备鸡蛋），就把馅改成蛋黄的，这样做不仅提高了生产效率，而且还节省了一部分再创建一个月饼的时间。
 
-再比如说可恶的盗图、盗文章、盗视频的人，他们把原创内容拿回去改个名字，去掉水印，随便改改内容，就成了自己的了！？
+==再比如说可恶的盗图、盗文章、盗视频的人，他们把原创内容拿回去改个名字，去掉水印，随便改改内容，就成了自己的了！？==
 
 
 
-
-
-上面说的两个案例的行为都是在节省了创建时间，同时达到了自己的一些目的。而这在设计模式中，就叫做原型模式，为了解决一个对象的创建而出现的一种设计模式，归类在了创建型模式中。
+上面说的两个案例的行为都是在节省了创建时间，同时达到了自己的一些目的。而这在设计模式中，就叫做**原型模式**，为了解决一个对象的创建而出现的一种设计模式，归类在了创建型模式中。
 
 > 注意：在行为型模式中有着与之类似的一种模式——模版方法模式，是为了解决一件事情中的一系列操作而存在的一种模式，二者的区别在于，原型模式用于对象创建，模板方法模式用于事件行为约束。
 
@@ -36,7 +34,7 @@
 
 
 
-![prototype-UML](prototype-UML.png)
+![prototype-UML](https://i.loli.net/2020/10/16/Ct5bJAgkDiTcWsy.png)
 
 
 
@@ -51,8 +49,8 @@ java 的 JDK 中，提供一个标识接口 Cloneable ，我们将需要定义�
 ```java
 public class Graphics implements Cloneable {
 
-    private String color;
-    private String shape;
+    private final String color;
+    private final String shape;
 
 
     public Graphics(String color, String shape) {
@@ -89,42 +87,178 @@ public class Graphics implements Cloneable {
 
 
 
+### 浅克隆代码
+
+```java
+public class Graphics implements Cloneable {
+
+    private final String color;
+    private final String shape;
+    // 引用类型没有实现 cloneable 接口
+    private final Size size;
+
+
+    public Graphics(String color, String shape, Size size) {
+        this.color = color;
+        this.shape = shape;
+        this.size = size;
+    }
+
+    @Override
+    protected Graphics clone() throws CloneNotSupportedException {
+        return (Graphics) super.clone();
+    }
+}
+```
 
 
 
+```java
+// 引用类型没有实现 cloneable 接口
+public class Size {
+    public int width;
+    public int height;
+
+    public Size(int width, int height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    @Override
+    public String toString() {
+        return "Size(" + width + ", " + height + ")";
+    }
+}
+```
+
+测试结果
+
+```java
+class GraphicsTest {
+    @Test
+    void graphicsTest() throws CloneNotSupportedException {
+        Size size = new Size(1, 2);
+        Graphics graphics = new Graphics("red", "circular", size);
+        Graphics clone = graphics.clone();
+        size.height = 3;
+        size.width = 5;
+        System.out.println("graphics = " + graphics);
+        // 判断两个对象是否不同
+        Assertions.assertNotSame(graphics, clone);
+        clone.setColor("blue");
+        clone.setShape("square");
+        System.out.println("clone = " + clone);
+    }
+}
+```
+
+
+
+```text
+graphics = Graphics[color='red', shape='circular', size=Size(5, 3)]
+clone = Graphics[color='blue', shape='square', size=Size(5, 3)]
+```
+
+
+
+### 深克隆：引用类型也实现 Cloneable 接口
+
+```java
+// 引用类型实现了 cloneable 接口
+public class Size implements Cloneable {
+    public int width;
+    public int height;
+
+    public Size(int width, int height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    @Override
+    protected Size clone() throws CloneNotSupportedException {
+        return (Size) super.clone();
+    }
+
+    @Override
+    public String toString() {
+        return "Size(" + width + ", " + height + ")";
+    }
+}
+```
+
+在原型类中调整 clone 方法
+
+```java
+    @Override
+    protected Graphics clone() throws CloneNotSupportedException {
+        Graphics clone = (Graphics) super.clone();
+        clone.size = size.clone();
+        return clone;
+    }
+```
+
+测试结果
+
+```java
+class GraphicsTest {
+    @Test
+    void graphicsTest() throws CloneNotSupportedException {
+        Size size = new Size(1, 2);
+        Graphics graphics = new Graphics("red", "circular", size);
+        Graphics clone = graphics.clone();
+        size.height = 3;
+        size.width = 5;
+        System.out.println("graphics = " + graphics);
+        // 判断两个对象是否不同
+        Assertions.assertNotSame(graphics, clone);
+        clone.setColor("blue");
+        clone.setShape("square");
+        System.out.println("clone = " + clone);
+    }
+}
+```
+
+
+
+```text
+graphics = Graphics[color='red', shape='circular', size=Size(5, 3)]
+clone = Graphics[color='blue', shape='square', size=Size(1, 2)]
+```
+
+完整代码  [https://github.com/lvgocc/java-design-patterns/tree/main/prototype](https://github.com/lvgocc/java-design-patterns/tree/main/prototype)
 
 ## 原型模式自身有什么优势和问题呢？
 
 **优势：**
 
-1. JDK 的 cloneable 接口是基于内存数据的直接复制，速度相较于 new 关键字创建对象更加快速；
-2. 通过**深克隆**来保存一个对象某一时刻的状态，便于还原，实现撤销操作。
+1. JDK 的 cloneable 接口是基于内存数据的直接复制，速度相较于 new 关键字创建对象更加快速；同时简化了创建过程（不会执行构造方法）。
+2. 通过**深克隆**来保存一个对象某一时刻的状态，便于还原，实现撤销操作；
 
 问题：
 
-1. 需要为每个类重写 clone 方法
+1. 需要为每个类重写 #clone 方法；
 2. 深克隆需要将每个对象都维护一个 cloneable 接口；
+3. 构造方法中的代码不会执行；
 
 
 
 ## 总结
 
+当我们需要频繁使用一些类似的对象的时候，可以考虑使用原型模式来降低资源的开销，使资源得到合理的分配和使用。而对于原型模式的深克隆带来的弊端，就显得那么的不重要了。
+
+1. 类似的对象使用频繁，考虑原型模式
+2. 深克隆时注意类中的引用类型是否实现了 cloneable 接口
+3. 注意构造函数中是否有必要代码要执行，可以考虑放到 #clone 方法中执行
 
 
 
 
+# 写在最后
 
+　　Java 设计模式专题，共23 种设计模式。内容来自个人学习理解消化的结果，谈不上教程，只望记录于此同你分享。希望能够和大家一起进步、成长。为了梦想，学习技术。如果你觉得文章对你有帮助，希望随便点赞、关注、分享、给个 star 支持一下。感激涕零🎈。
 
+　　[⭐https://github.com/lvgocc/java-design-patterns](https://github.com/lvgocc/java-design-patterns)
 
+　　欢迎大家关注我的个人公众号：**星尘的一个朋友** 刚刚开始弄，希望与你一起成长！
 
-
-
-
-
-
-
-
-
-
-
-
+![星尘的一个朋友](https://i.loli.net/2020/10/08/2ZVKPRsQ9TyDmki.png)
