@@ -10,6 +10,7 @@
 - [x] [2. 原型模式：啥？盗图、盗文章的人居然用的是一种设计模式！原型模式？](https://github.com/lvgocc/java-design-patterns/tree/main/prototype)
 - [x] [3. 工厂模式：像工厂一样创建对象，让业务代码更专注！](https://github.com/lvgocc/java-design-patterns/tree/main/factory)
 - [x] [4. 抽象工厂模式：抽象工厂模式和工厂模式有区别吗？](https://github.com/lvgocc/java-design-patterns/tree/main/abstract-factory)
+- [x] [5. 建造者模式：学个设计模式还和人生扯上关系了？](https://github.com/lvgocc/java-design-patterns/tree/main/build)
 
 
 
@@ -181,7 +182,7 @@
 - [x] [2. 原型（Prototype）模式：将一个对象作为原型，通过对其进行复制而克隆出多个和原型类似的新实例。](https://github.com/lvgocc/java-design-patterns/tree/main/prototype)
 - [x] [3. 工厂（Factory）模式：定义一个用于创建产品的接口，由子类决定生产什么产品。](https://github.com/lvgocc/java-design-patterns/tree/main/factory)
 - [x] [4. 抽象工厂（AbstractFactory）模式：提供一个创建产品族的接口，其每个子类可以生产一系列相关的产品。](https://github.com/lvgocc/java-design-patterns/tree/main/abstract-factory)
-- [ ] 5.建造者（Builder）模式：将一个复杂对象分解成多个相对简单的部分，然后根据不同需要分别创建它们，最后构建成该复杂对象。
+- [ ] [5. 建造者（Builder）模式：将一个复杂对象分解成多个相对简单的部分，然后根据不同需要分别创建它们，最后构建成该复杂对象。](https://github.com/lvgocc/java-design-patterns/tree/main/build)
 
 
 ## 🖇 结构型(7)
