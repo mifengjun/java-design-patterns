@@ -1,3 +1,5 @@
+![抽象工厂模式](https://i.loli.net/2020/10/17/fqGiTYHzgdxOjbK.png)
+
 # 抽象工厂模式 🌉
 
 > 提供一个创建产品族的接口，其每个子类可以生产一系列相关的产品。
@@ -236,6 +238,8 @@ public class MiElectronicsFactory implements ElectronicsFactory{
 
 　　[⭐https://github.com/lvgocc/java-design-patterns](https://github.com/lvgocc/java-design-patterns)
 
-　　欢迎大家关注我的个人公众号：**星尘的一个朋友** 亦或繁星、亦或尘埃。星尘，为了梦想，学习技术。
+　　**星尘的一个朋友** 亦或繁星、亦或尘埃。星尘，为了梦想，学习技术。
+  
+　　关注公众号，回复“加群”，和 lvgo 一起学习设计模式。坚决维护群内环境，给大家提供一个良好的学习交流环境。
 
 ![星尘的一个朋友](https://i.loli.net/2020/10/08/2ZVKPRsQ9TyDmki.png)
