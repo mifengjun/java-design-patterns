@@ -236,6 +236,6 @@ public class MiElectronicsFactory implements ElectronicsFactory{
 
 　　[⭐https://github.com/lvgocc/java-design-patterns](https://github.com/lvgocc/java-design-patterns)
 
-　　欢迎大家关注我的个人公众号：**星尘的一个朋友** 刚刚开始弄，希望与你一起成长！
+　　欢迎大家关注我的个人公众号：**星尘的一个朋友** 亦或繁星、亦或尘埃。星尘，为了梦想，学习技术。
 
 ![星尘的一个朋友](https://i.loli.net/2020/10/08/2ZVKPRsQ9TyDmki.png)
