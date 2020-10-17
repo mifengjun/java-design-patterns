@@ -322,7 +322,7 @@ public class CircularFactory extends AbstractGraphicalFactory {
 
 # 写在最后
 
-　　Java 设计模式专题，共23 种设计模式。内容来自个人学习理解消化的结果，谈不上教程，只望记录于此同你分享。希望能够和大家一起进步、成长。为了梦想，学习技术。如果你觉得文章对你有帮助，希望给个 star 支持一下。感激涕零。
+　　Java 设计模式专题，共23 种设计模式。内容来自个人学习理解消化的结果，谈不上教程，只望记录于此同你分享。希望能够和大家一起进步、成长。为了梦想，学习技术。如果你觉得文章对你有帮助，希望随便点赞、关注、分享、给个 star 支持一下。感激涕零🎈。
 
 　　[⭐https://github.com/lvgocc/java-design-patterns](https://github.com/lvgocc/java-design-patterns)
 
