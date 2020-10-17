@@ -1,3 +1,5 @@
+![单例模式](https://i.loli.net/2020/10/17/iLtwGbMCcAv2WjE.png)
+
 # 单例（Singleton）模式 📍
 
 > 前排提醒：学习设计模式的时候，千万不要咬文嚼字。因为模式本身就是一种思想，我们将其思想领悟，然后活学活用，而不是为了学语文。为了技术，放下语文。因为你接触的模式越多，越会发现很多模式的定义的界线开始模糊，这就是模式本身。一生万物，万物归一。
@@ -319,6 +321,8 @@ public interface Collection<E> extends Iterable<E> {
 
 　　[⭐https://github.com/lvgocc/java-design-patterns](https://github.com/lvgocc/java-design-patterns)
 
-　　欢迎大家关注我的个人公众号：**星尘的一个朋友** 亦或繁星、亦或尘埃。星尘，为了梦想，学习技术。
+　　**星尘的一个朋友** 亦或繁星、亦或尘埃。星尘，为了梦想，学习技术。
+  
+　　关注公众号，回复“加群”，和 lvgo 一起学习设计模式。坚决维护群内环境，给大家提供一个良好的学习交流环境。
 
 ![星尘的一个朋友](https://i.loli.net/2020/10/08/2ZVKPRsQ9TyDmki.png)
