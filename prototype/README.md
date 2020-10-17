@@ -227,7 +227,7 @@ clone = Graphics[color='blue', shape='square', size=Size(1, 2)]
 
 完整代码  [https://github.com/lvgocc/java-design-patterns/tree/main/prototype](https://github.com/lvgocc/java-design-patterns/tree/main/prototype)
 
-## 原型模式自身有什么优势和问题呢？
+## 原型模式自身有什么优势和问题呢？ 🤔
 
 **优势：**
 
