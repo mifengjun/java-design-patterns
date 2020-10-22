@@ -1,5 +1,3 @@
-![设计模式](https://i.loli.net/2020/10/17/3GYEOix1ZzAbeXh.png)
-
 # java-design-patterns
 
 　　Java 设计模式专题，共 23 种设计模式。内容来自个人学习理解消化的结果，谈不上教程，只望记录于此同你分享。希望能够和大家一起进步、成长。为了梦想，学习技术。如果看过内容觉得还可以就点个 star ⭐ 吧 ヾ(≧▽≦*)o [https://github.com/lvgocc/java-design-patterns](https://github.com/lvgocc/java-design-patterns)
@@ -11,6 +9,7 @@
 - [x] [3. 工厂模式：像工厂一样创建对象，让业务代码更专注！](https://github.com/lvgocc/java-design-patterns/tree/main/factory)
 - [x] [4. 抽象工厂模式：抽象工厂模式和工厂模式有区别吗？](https://github.com/lvgocc/java-design-patterns/tree/main/abstract-factory)
 - [x] [5. 建造者模式：学个设计模式还和人生扯上关系了？](https://github.com/lvgocc/java-design-patterns/tree/main/build)
+- [x] [6. 代理模式：有什么问题跟我律师说吧。](https://github.com/lvgocc/java-design-patterns/tree/main/proxy)
 
 
 
@@ -187,7 +186,7 @@
 
 ## 🖇 结构型(7)
 
-- [ ] 1.代理（Proxy）模式：为某对象提供一种代理以控制对该对象的访问。即客户端通过代理间接地访问该对象，从而限制、增强或修改该对象的一些特性。
+- [x] [1. 代理（Proxy）模式：为某对象提供一种代理以控制对该对象的访问。即客户端通过代理间接地访问该对象，从而限制、增强或修改该对象的一些特性。](https://github.com/lvgocc/java-design-patterns/tree/main/proxy)
 - [ ] 2.适配器（Adapter）模式：将一个类的接口转换成客户希望的另外一个接口，使得原本由于接口不兼容而不能一起工作的那些类能一起工作。
 - [ ] 3.桥接（Bridge）模式：将抽象与实现分离，使它们可以独立变化。它是用组合关系代替继承关系来实现的，从而降低了抽象和实现这两个可变维度的耦合度。
 - [ ] 4.装饰（Decorator）模式：动态地给对象增加一些职责，即增加其额外的功能。
