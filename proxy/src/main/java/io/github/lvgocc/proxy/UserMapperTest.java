@@ -1,4 +1,4 @@
-package io.github.lvgocc.proxy.dynamic;
+package io.github.lvgocc.proxy;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,7 +15,7 @@ import java.util.Arrays;
  * 保存动态代理生成类在测试包不生效，所以放在这里进行测试
  */
 public class UserMapperTest {
-    private static Logger logger = LoggerFactory.getLogger(UserMapperTest.class);
+    private static final Logger logger = LoggerFactory.getLogger(UserMapperTest.class);
 
     public static void main(String[] args) {
         logger.info("Hello World!");

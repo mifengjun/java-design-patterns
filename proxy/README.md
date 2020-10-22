@@ -14,19 +14,21 @@ GOF的**《设计模式.可复用面向对象软件的基础》**通过一个应
 
 *我发现我更适合写一些畅谈型的文章🤣*
 
+![代理模式](https://i.loli.net/2020/10/22/5l9eIS7tXdofFAE.png)
+
 # 代理模式 👥
 
-> 为某对象提供一种代理以控制对该**对象的访问**。即客户端通过代理间接地访问该对象，从而限制、增强或修改该对象的一些特性。
+> 为某对象提供一种代理以**控制对该对象的访问**。即客户端通过代理间接地访问该对象，从而限制、增强或修改该对象的一些特性。
 
 代理模式是为了解决**对象的访问控制**，特别是当你的目标对象不可改变的时候。效果更佳明显。
 
 先来几段对话，简单感受一下这个“代理”
 
 - “这 google 好慢啊，搞个代理”
-- “您好，请问明年3月-12月有档期吗？” ”和我经纪人联系“
+- “您好，请问明年3月-12月有档期吗？” ”和我经纪人联系📞“
 - “我要告你” “好啊，有什么问题跟我的律师说吧”
-- “哦？是海大富海公公” “这是皇上口谕” “啊？（急忙下跪）“
-- “您好，这里是 12345 市长热线”
+- “哦？👀是海大富海公公” “这是皇上口谕” “啊？（急忙下跪）“
+- “您好，这里是 12345 市长热线☎”
 
 **“控制一个实际的对象访问，同时可以达到一定的目的”**
 
@@ -61,7 +63,7 @@ GOF的**《设计模式.可复用面向对象软件的基础》**通过一个应
 
 ## 代理模式类图 📌
 
-![prxy-UML](proxy-UML.png)
+![prxy-UML](https://i.loli.net/2020/10/22/ziGBmy81YFw7kts.png)
 
 
 ## 代码 📄
@@ -106,7 +108,7 @@ UserMapper o = (UserMapper) Proxy.newProxyInstance(
 
 ```reStructuredText
 14:25:43.966 [main] INFO io.github.lvgocc.App - Hello World!
-14:25:44.251 [main] INFO io.github.lvgocc.App - statement position: io.github.lvgocc.proxy.dynamic.UserMapper#selectByUserId, args: [2333]
+14:25:44.251 [main] INFO io.github.lvgocc.App - statement position: io.github.lvgocc.proxy.UserMapper#selectByUserId, args: [2333]
 14:25:44.258 [main] INFO io.github.lvgocc.App - 查询结果：用户id：2333公众号：星尘的一个朋友，加群一起学习设计模式
 ```
 
@@ -114,7 +116,7 @@ mybatis 使用动态代理，让一个接口去代理了真实的数据库对象
 
 **下面再看一个简单的例子，当然用图说明可能会更容易**
 
-![大洋彼岸的服务器](proxy-Network.png)
+![大洋彼岸的服务器](https://i.loli.net/2020/10/22/MpN1wxuCjrBH96t.png)
 
 > 请忽略图中示意具体内容，只是借图表达代理的意义，控制对象的访问。
 
@@ -136,5 +138,5 @@ mybatis 使用动态代理，让一个接口去代理了真实的数据库对象
 <div align="center">
     <b>亦或繁星、亦或尘埃。星尘✨，为了梦想，学习技术，不要抱怨、坚持下去💪。</b>
     <p>关注<b style='color:blue'>星尘的一个朋友</b>获取源码、加群一起交流学习🤓。</p>
-    <img alt='星尘的一个朋友' src='/images/stardust_qrcode.jpg'/>
+    <img alt='星尘的一个朋友' src='https://i.loli.net/2020/10/22/7swJfMCPrThebVI.png'/>
 </div>

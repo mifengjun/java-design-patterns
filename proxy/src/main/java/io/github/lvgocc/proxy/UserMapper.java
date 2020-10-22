@@ -1,4 +1,4 @@
-package io.github.lvgocc.proxy.dynamic;
+package io.github.lvgocc.proxy;
 
 /**
  * 用户接口
