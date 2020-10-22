@@ -217,16 +217,19 @@
 
 　　笔者技术水平、理解能力均有限，如有读者发现有歧义甚至错误的地方，希望可以通过评论或私信或邮箱等等让我知道的途径提醒笔者改正。记得点个 star ⭐ 哦 ヾ(≧▽≦*)o [https://github.com/lvgocc/java-design-patterns](https://github.com/lvgocc/java-design-patterns)
 
-　　星尘的一个朋友 亦或繁星、亦或尘埃。星尘，为了梦想，学习技术。
-
-　　关注公众号，回复“加群”，和 lvgo 一起学习设计模式。坚决维护群内环境，给大家提供一个良好的学习交流环境。
-
-![星尘的一个朋友](https://i.loli.net/2020/10/08/aKPT1X4B6ZMV7YG.png)
+----
+<div align="center">
+    <b>亦或繁星、亦或尘埃。星尘✨，为了梦想，学习技术，不要抱怨、坚持下去💪。</b>
+    <p>关注<b style='color:blue'>星尘的一个朋友</b>获取源码、加群一起交流学习🤓。</p>
+    <img alt='星尘的一个朋友' src='/images/stardust_qrcode.jpg'/>
+</div>
 
 
 # 参（jù）考（rén）文（jiān）献（bǎng）
 
 　　非常感谢以下平台或个人的无私贡献知识资源，才能够让我有更多机会去学习了解各类知识。同时在此列出系列文章中的全部出处来源，同时后续在各篇独立文章中如有涉及也会尽可能的列出。排名不分先后。
+
+- [https://bugstack.cn/itstack/itstack-demo-design.html](https://bugstack.cn/itstack/itstack-demo-design.html) [``傅哥git``](https://github.com/fuzhengwei)
 
 - [http://c.biancheng.net/design_pattern/](http://c.biancheng.net/design_pattern/)
 

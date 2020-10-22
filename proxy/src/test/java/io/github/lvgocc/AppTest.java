@@ -1,6 +1,7 @@
 package io.github.lvgocc;
 
 
+import io.github.lvgocc.proxy.dynamic.UserMapperTest;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -13,6 +14,6 @@ class AppTest {
 
     @Test
     void main() {
-        App.main(new String[]{});
+        UserMapperTest.main(new String[]{});
     }
 }

@@ -16,15 +16,10 @@
 ## 总结 🐱‍💻
 
 
-# 写在最后
 
-　　Java 设计模式专题，共23 种设计模式。内容来自个人学习理解消化的结果，谈不上教程，只望记录于此同你分享。希望能够和大家一起进步、成长。为了梦想，学习技术。如果你觉得文章对你有帮助，希望随便点赞、关注、分享、给个 star 支持一下。感激涕零🎈。
-
-　　[⭐https://github.com/lvgocc/java-design-patterns](https://github.com/lvgocc/java-design-patterns)
-
-　　**星尘的一个朋友** 亦或繁星、亦或尘埃。星尘，为了梦想，学习技术。
-  
-　　关注公众号，回复“加群”，和 lvgo 一起学习设计模式。坚决维护群内环境，给大家提供一个良好的学习交流环境。
-
-![星尘的一个朋友](https://i.loli.net/2020/10/08/2ZVKPRsQ9TyDmki.png)
-
+----
+<div align="center">
+    <b>亦或繁星、亦或尘埃。星尘✨，为了梦想，学习技术，不要抱怨、坚持下去💪。</b>
+    <p>关注<b style='color:blue'>星尘的一个朋友</b>获取源码、加群一起交流学习🤓。</p>
+    <img alt='星尘的一个朋友' src='/images/stardust_qrcode.jpg'/>
+</div>
