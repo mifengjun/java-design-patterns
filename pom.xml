@@ -15,6 +15,7 @@
         <module>prototype</module>
         <module>build</module>
         <module>proxy</module>
+        <module>decorator</module>
     </modules>
 
     <name>java-design-patterns</name>

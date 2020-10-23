@@ -1,6 +1,13 @@
 # java-design-patterns
 
-　　Java 设计模式专题，共 23 种设计模式。内容来自个人学习理解消化的结果，谈不上教程，只望记录于此同你分享。希望能够和大家一起进步、成长。为了梦想，学习技术。如果看过内容觉得还可以就点个 star ⭐ 吧 ヾ(≧▽≦*)o [https://github.com/lvgocc/java-design-patterns](https://github.com/lvgocc/java-design-patterns)
+　　Java 设计模式专题，共 23 种设计模式。摒弃应用并非本末倒置，知其然而知其所以然，
+
+- 提到单例想到“饿汉？，懒汉？”
+- 提到工厂想到“汽车？”
+- 提到抽象工厂想到“一个大的工厂？“
+- 提到适配器想到“插头？USB？”
+
+　　如果是，我相信这里很适合你阅读学习。设计模式学了不会用？可以看两篇试一试，同样的知识，不一样的“味道”。
 
 # “别废话！下面那些我都不想看，我想直接学习！” "好的大哥，这就安排！"
 
@@ -22,14 +29,17 @@
 ## “设计模式”最初的提出，是在建筑领域。🌉
 
 　　1977 年被美国的建筑大师🕍 克里斯托夫·亚历山大 （Christopher Alexander）在他的著作📕《建筑模式语言：城镇、建筑、构造（A Pattern Language: Towns Building Construction）中描述了一些常见的建筑设计问题，并提出了一系列的解决方案， 至此称为模式。
-　　
+
+
 　　2年后，1979年，克里斯托夫·亚历山大 在他的另一本著作📙《建筑的永恒之道》（The Timeless Way of Building）进一步强化了设计模式的思想。
-　　
+
+
 　　直到 1990 年，也就是 13 年后。设计模式一词才到了软件工程界，同时为此开辟了专题研讨会。
 
 ## GOF👨‍🦲👦👨🧑
 
 　　在“设计模式”进入软件行业后的第5年，也就是 1995 年，艾瑞克·伽马（ErichGamma）👨‍🦲、理査德·海尔姆（Richard Helm）👦、拉尔夫·约翰森（Ralph Johnson）👨、约翰·威利斯迪斯（John Vlissides）🧑等 4 位作者合作出版了📘《设计模式：可复用面向对象软件的基础》（Design Patterns: Elements of Reusable Object-Oriented Software）一书。
+
 
 　　从此掀起了软件工程界的“设计模式”浪潮，使越来越多的开发者受益，同时涌现出了越来越多的设计模式。而这 4 位作者在软件领域小组名称 Gang of Four 四人组（四人帮），后来设计模式也以此匿名著称 GOF。
 
@@ -228,7 +238,7 @@
 
 　　非常感谢以下平台或个人的无私贡献知识资源，才能够让我有更多机会去学习了解各类知识。同时在此列出系列文章中的全部出处来源，同时后续在各篇独立文章中如有涉及也会尽可能的列出。排名不分先后。
 
-- [https://bugstack.cn/itstack/itstack-demo-design.html](https://bugstack.cn/itstack/itstack-demo-design.html) [``傅哥git``](https://github.com/fuzhengwei)
+- [https://bugstack.cn/itstack/itstack-demo-design.html](https://bugstack.cn/itstack/itstack-demo-design.html)
 
 - [http://c.biancheng.net/design_pattern/](http://c.biancheng.net/design_pattern/)
 
