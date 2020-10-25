@@ -18,6 +18,9 @@ public abstract class Tank {
      */
     protected int shootSpeed;
 
+    public Tank() {
+    }
+
     public Tank(int moveSpeed, int shootSpeed) {
         this.moveSpeed = moveSpeed;
         this.shootSpeed = shootSpeed;
