@@ -1,3 +1,5 @@
+![decorator-title](https://i.loli.net/2020/10/25/pRsncV7AJKI4CFG.png)
+
 ## 题外话
 
 一直都有看到“包装者模式“ 出现在一些文章，甚至书中。它们被应用在装饰者模式和适配器模式中，这个原因源自 GOF 最早在书中给模式命名的时候提到了这两个模式的别名 ``wrapper``同时还有适配器也被成为 ``wrapper``, 所以有人将这几个名称混来混去。后来 GOF 在结尾讲书的简史的时候有提到，装饰者模式的名称由 glue 改成了 facade， wrapper 改为 decorator ，walker 变成了 visitor 。
