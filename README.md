@@ -17,6 +17,7 @@
 - [x] [4. 抽象工厂模式：抽象工厂模式和工厂模式有区别吗？](https://github.com/lvgocc/java-design-patterns/tree/main/abstract-factory)
 - [x] [5. 建造者模式：学个设计模式还和人生扯上关系了？](https://github.com/lvgocc/java-design-patterns/tree/main/build)
 - [x] [6. 代理模式：有什么问题跟我律师说吧。](https://github.com/lvgocc/java-design-patterns/tree/main/proxy)
+- [x] [7. 装饰者模式：玩了把坦克大战居然彻底搞懂了装饰者模式。](https://github.com/lvgocc/java-design-patterns/tree/main/decorator)
 
 
 
@@ -199,7 +200,7 @@
 - [x] [1. 代理（Proxy）模式：为某对象提供一种代理以控制对该对象的访问。即客户端通过代理间接地访问该对象，从而限制、增强或修改该对象的一些特性。](https://github.com/lvgocc/java-design-patterns/tree/main/proxy)
 - [ ] 2.适配器（Adapter）模式：将一个类的接口转换成客户希望的另外一个接口，使得原本由于接口不兼容而不能一起工作的那些类能一起工作。
 - [ ] 3.桥接（Bridge）模式：将抽象与实现分离，使它们可以独立变化。它是用组合关系代替继承关系来实现的，从而降低了抽象和实现这两个可变维度的耦合度。
-- [ ] 4.装饰（Decorator）模式：动态地给对象增加一些职责，即增加其额外的功能。
+- [x] [4. 装饰（Decorator）模式：动态地给对象增加一些职责，即增加其额外的功能。](https://github.com/lvgocc/java-design-patterns/tree/main/decorator)
 - [ ] 5.外观（Facade）模式：为多个复杂的子系统提供一个一致的接口，使这些子系统更加容易被访问。
 - [ ] 6.享元（Flyweight）模式：运用共享技术来有效地支持大量细粒度对象的复用。
 - [ ] 7.组合（Composite）模式：将对象组合成树状层次结构，使用户对单个对象和组合对象具有一致的访问性。
