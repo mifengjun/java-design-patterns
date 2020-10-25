@@ -48,7 +48,7 @@
 ## 装饰者模式类图 📌
 
 
-![装饰者模式类图](decorator3.png)
+![装饰者模式类图](https://i.loli.net/2020/10/25/L2a951Jf7cIspGK.png)
 
 一个浏览器的接口，一个 Chrome 实现类，一个 ChromeExtension 插件的实现类（用以装饰 Chrome），扩展中的构造函数为 浏览器类型，在插件类中会对浏览器 Brower 的 browse 方法进行一层装饰（增强，或减弱），在不改变对象的情况下，对对象行为进行动态的改变。
 
@@ -84,7 +84,7 @@
 
 
 
-![image-20201025111349260](https://i.loli.net/2020/10/25/hfzJVmHCj6sNIEq.png)吃了这个星（装饰），我变得更强 ![p1tankU](https://i.loli.net/2020/10/24/uQvdNDEV7JmLBCZ.gif)  ==>>  ![star](https://i.loli.net/2020/10/24/QvIyB28tdxSjnrK.gif) ==>> ![enemy3U](https://i.loli.net/2020/10/25/ANrTSZUghK5lcot.gif)
+![image-20201025111349260](https://i.loli.net/2020/10/25/hfzJVmHCj6sNIEq.png) 吃了这个星（装饰），我变得更强 ![p1tankU](https://i.loli.net/2020/10/24/uQvdNDEV7JmLBCZ.gif)  ==>>  ![star](https://i.loli.net/2020/10/24/QvIyB28tdxSjnrK.gif) ==>> ![enemy3U](https://i.loli.net/2020/10/25/ANrTSZUghK5lcot.gif)
 
 
 
