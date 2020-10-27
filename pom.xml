@@ -17,6 +17,7 @@
         <module>proxy</module>
         <module>decorator</module>
         <module>bridge</module>
+        <module>adapter</module>
     </modules>
 
     <name>java-design-patterns</name>

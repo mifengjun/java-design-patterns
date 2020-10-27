@@ -9,23 +9,31 @@
 
 　　如果是，我相信这里很适合你阅读学习。设计模式学了不会用？可以看两篇试一试，同样的知识，不一样的“味道”。
 
-# “别废话！下面那些我都不想看，我想直接学习！” "好的大哥，这就安排！"
+"每一篇..."(突然被打断)
+
+“don't talk, show me see see” 
+
+"好的大哥，这就安排！"
 
 - [x] [1. 单例模式: 资源！要合理的分配使用！](https://github.com/lvgocc/java-design-patterns/tree/main/singleton)
 - [x] [2. 原型模式：啥？盗图、盗文章的人居然用的是一种设计模式！原型模式？](https://github.com/lvgocc/java-design-patterns/tree/main/prototype)
 - [x] [3. 工厂模式：像工厂一样创建对象，让业务代码更专注！](https://github.com/lvgocc/java-design-patterns/tree/main/factory)
 - [x] [4. 抽象工厂模式：抽象工厂模式和工厂模式有区别吗？](https://github.com/lvgocc/java-design-patterns/tree/main/abstract-factory)
 - [x] [5. 建造者模式：学个设计模式还和人生扯上关系了？](https://github.com/lvgocc/java-design-patterns/tree/main/build)
-- [x] [6. 代理模式：有什么问题跟我律师说吧。](https://github.com/lvgocc/java-design-patterns/tree/main/proxy)
-- [x] [7. 装饰者模式：玩了把坦克大战居然彻底搞懂了装饰者模式。](https://github.com/lvgocc/java-design-patterns/tree/main/decorator)
+- [x] [6. 代理模式：有什么问题跟我律师说吧！](https://github.com/lvgocc/java-design-patterns/tree/main/proxy)
+- [x] [7. 装饰者模式：玩了把坦克大战居然彻底搞懂了装饰者模式！](https://github.com/lvgocc/java-design-patterns/tree/main/decorator)
+- [x] [8. 桥接模式：这个不常用的设计模式居然被我学的最透，草率了！](https://github.com/lvgocc/java-design-patterns/tree/main/bridge)
+- [x] [9. 适配器模式：要是不认识榫字，可以点进来看看了，今天轻松点，就说说什么是"榫"！](https://github.com/lvgocc/java-design-patterns/tree/main/adapter)
 
 
+
+每一篇都有对应的文章配合源码学习，文章以通俗为主，易懂为辅。学渣的心情学习学霸的知识，我不善搞深奥的东西，但喜欢将深奥的东西变成简单的东西，我深信复杂度守恒定律，我也相信讲出来的东西是为了让大家能听懂而不是自己秀知识储备而已。听懂掌声。
 
 # 软件设计模式背景
 
 >当我们要学习一门技术或者一类知识的时候，先去了解学习它的背景，会对我们接下来的学习和理解产生一些潜移默化的影响和帮助
 
-
+这个背景千篇一律，事实就是如此。我用自己的话在总结一下。
 
 ## “设计模式”最初的提出，是在建筑领域。🌉
 
@@ -55,6 +63,7 @@
 
 
 # 设计模式基本原则
+> 基本原则摘自 http://c.biancheng.net/design_pattern/
 
 　　当问题的解决方案有很多时，该怎么权衡哪一个方案可以成为是模式呢？这就有了原则性的约束。为了提高软件系统的可维护性和可复用性，增加软件的可扩展性和灵活性，我们应当要尽量根据 **⑦** 条原则来开发程序，从而提高软件开发效率、节约软件开发成本和维护成本。
 
@@ -76,8 +85,9 @@
 
 
 
-
 # 🎨 设计模式分类
+
+> 摘自 GOF 设计模式一书中文版译文，可能有内容有出入，还请参考原著辅助阅读。
 
 　　根据模式是用来完成什么工作来划分，这种方式可分为创建型模式、结构型模式和行为型模式 3 种。
 
@@ -198,8 +208,8 @@
 ## 🖇 结构型(7)
 
 - [x] [1. 代理（Proxy）模式：为某对象提供一种代理以控制对该对象的访问。即客户端通过代理间接地访问该对象，从而限制、增强或修改该对象的一些特性。](https://github.com/lvgocc/java-design-patterns/tree/main/proxy)
-- [ ] 2.适配器（Adapter）模式：将一个类的接口转换成客户希望的另外一个接口，使得原本由于接口不兼容而不能一起工作的那些类能一起工作。
-- [ ] 3.桥接（Bridge）模式：将抽象与实现分离，使它们可以独立变化。它是用组合关系代替继承关系来实现的，从而降低了抽象和实现这两个可变维度的耦合度。
+- [x] [2. 适配器（Adapter）模式：将一个类的接口转换成客户希望的另外一个接口，使得原本由于接口不兼容而不能一起工作的那些类能一起工作。](https://github.com/lvgocc/java-design-patterns/tree/main/adapter)
+- [x] [3. 桥接（Bridge）模式：将抽象与实现分离，使它们可以独立变化。它是用组合关系代替继承关系来实现的，从而降低了抽象和实现这两个可变维度的耦合度。](https://github.com/lvgocc/java-design-patterns/tree/main/bridge)
 - [x] [4. 装饰（Decorator）模式：动态地给对象增加一些职责，即增加其额外的功能。](https://github.com/lvgocc/java-design-patterns/tree/main/decorator)
 - [ ] 5.外观（Facade）模式：为多个复杂的子系统提供一个一致的接口，使这些子系统更加容易被访问。
 - [ ] 6.享元（Flyweight）模式：运用共享技术来有效地支持大量细粒度对象的复用。
