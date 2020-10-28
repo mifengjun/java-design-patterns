@@ -23,7 +23,7 @@
 - [x] [6. 代理模式：有什么问题跟我律师说吧！](https://github.com/lvgocc/java-design-patterns/tree/main/proxy)
 - [x] [7. 装饰者模式：玩了把坦克大战居然彻底搞懂了装饰者模式！](https://github.com/lvgocc/java-design-patterns/tree/main/decorator)
 - [x] [8. 桥接模式：这个不常用的设计模式居然被我学的最透，草率了！](https://github.com/lvgocc/java-design-patterns/tree/main/bridge)
-- [x] [9. 适配器模式：要是不认识榫字，可以点进来看看了，今天轻松点，就说说什么是"榫"！](https://github.com/lvgocc/java-design-patterns/tree/main/adapter)
+- [x] [9. 适配器模式：要是不认识榫字，可以点进来看看了，今天轻松点，就说说什么是“榫”，什么是“卯”，什么是“榫卯”！](https://github.com/lvgocc/java-design-patterns/tree/main/adapter)
 
 
 
@@ -247,7 +247,7 @@
 
 # 参（jù）考（rén）文（jiān）献（bǎng）
 
-　　非常感谢以下平台或个人的无私贡献知识资源，才能够让我有更多机会去学习了解各类知识。同时在此列出系列文章中的全部出处来源，同时后续在各篇独立文章中如有涉及也会尽可能的列出。排名不分先后。
+　　非常感谢以下平台或书籍或个人的无私贡献知识资源，才能够让我有更多机会去学习了解各类知识。同时在此列出系列文章中的全部出处来源，同时后续在各篇独立文章中如有涉及也会尽可能的列出。排名不分先后。
 
 - [https://bugstack.cn/itstack/itstack-demo-design.html](https://bugstack.cn/itstack/itstack-demo-design.html)
 
@@ -257,3 +257,14 @@
 
 - [https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns](https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns)
 
+- [https://www.runoob.com/design-pattern/design-pattern-tutorial.html](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
+
+- [可复用面向对象软件的基础](https://book.douban.com/subject/34262305/)
+
+- [大话设计模式](https://book.douban.com/subject/2334288/)
+
+- [设计模式之禅（第2版）](https://book.douban.com/subject/25843319/)
+
+- [人人都懂设计模式：从生活中领悟设计模式：Python实现](https://book.douban.com/subject/33399755/)
+
+- [设计模式（Java版）](https://weread.qq.com/web/reader/8cc327d05a60108cc68d859)

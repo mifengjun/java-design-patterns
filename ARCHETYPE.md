@@ -14,3 +14,26 @@ lvgocc java design pattern maven archetype description
 5. 填写
 ![](https://i.loli.net/2020/10/18/Skm5hszyRwIK9qr.png)
 
+
+
+----
+
+code template
+
+```java
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+#parse("File Header.java")
+ /**
+ *
+ * 欢迎跟我一起学习，公众号搜索：星尘的一个朋友 
+ * 也可以加我微信（lvgocc）拉你进群
+ *
+ * @author lvgorice@gmail.com
+ * @blog http://lvgo.org
+ * @CSDN https://blog.csdn.net/sinat_34344123
+ * @version 1.0
+ * @date ${DATE}
+ */
+public class ${NAME} {
+}
+```
