@@ -1,3 +1,5 @@
+![timg](https://i.loli.net/2020/10/29/YIpkj5QDBHb7ytN.png)
+
 # 科普闲聊
 
 >复杂度守恒定律由Larry Tesler于1984年提出，也称泰斯勒定律（Tesler's Law）。复杂度守恒定律（Law of conservation of complexity）由Larry Tesler于1984年提出，也称泰斯勒定律（Tesler's Law）。
