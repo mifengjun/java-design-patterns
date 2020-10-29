@@ -4,18 +4,18 @@
 
 首先，让我们面向百度学习一波。
 
-![sun.png](sun.png)
+![sun.png](https://i.loli.net/2020/10/28/aDRfCgLMbvmUZnS.png)
 
 榫[sǔn]：制木竹等器物时，为使两块材料接合所特制的凸凹部分。
 
 
 感觉不够直观，找点图看看。
 
-![sun-picture.png](sun-picture.png)
+![sun-picture.png](https://i.loli.net/2020/10/28/xPUfBl5RESaKW8J.png)
 
 再来点
 
-![sun-picture2.png](sun-picture2.png)
+![sun-picture2.png](https://i.loli.net/2020/10/28/k4rIqmhKWfe5L76.png)
 
 这里我借花献佛一下，榫说的是两块材料接合凸起的部分，凹进去的部分叫卯。
 
@@ -31,11 +31,11 @@
 
 **原来都是这样进行搭配**
 
-![adapter.png](adapter.png)
+![adapter.png](https://i.loli.net/2020/10/28/Qx7Om2BNFEro8fW.png)
 
 **突然有一天给了我一个**
 
-![adapter1.png](adapter1.png)
+![adapter1.png](https://i.loli.net/2020/10/28/TzyObZe9FwC8GEh.png)
 
 这两个材料怎么接，榫不对卯，卯不对榫，接不上啊。
 
@@ -43,15 +43,15 @@
 
 这可难不倒伟大的工匠艺人们，他们做出来了一个 榫卯，大概是这个样子。
 
-![adapter3.png](adapter3.png)
+![adapter3.png](https://i.loli.net/2020/10/28/w165r3qAvaLFNXO.png)
 
 这样他们就能完美的接在一起使用了。这就是榫卯。
 
-![adapter4.png](adapter4.png)
+![adapter4.png](https://i.loli.net/2020/10/28/Enzvuswex8IKpDX.png)
 
 榫卯使得本来不能直接接合的材料能够接合起来了。看到这里让我想到了插在大哥电脑上的扩展坞
 
-![kuozhanwu](kuozhanwu.jpg)
+<img src="https://i.loli.net/2020/10/28/bxq2FramOUyuzh1.jpg" alt="kuozhanwu" style="zoom:25%;" />
 
 这是华为的扩展坞，整个电脑上就两个外接口，一个充电口，一个这个扩展坞的口。想接 USB 设备必须要经过这个扩展坞才可以。
 
@@ -59,7 +59,7 @@
 
 > 将一个类的接口转换成客户希望的另外一个接口，使得原本由于接口不兼容而不能一起工作的那些类能一起工作。
 
-首先大家要知道一个可能一直被大家忽略的一个问题就是，适配器模式一共有两种，一种是类适配器，另一种叫做对象适配器。这两个是什么东西呢，经过鄙人的一词一句话概括如下：
+首先大家要知道一个可能一直被大家忽略的一个问题就是，适配器模式一共有两种，一种是类适配器，另一种叫做对象适配器。这两个是什么东西呢。
 
 **类适配器：通过类的继承或者接口的实现来达到适配目的；**
 
@@ -71,7 +71,7 @@
 
 再来看看图，消化吸收一下。
 
-![adapter-class.png](adapter-class.png)
+![adapter-class.png](https://i.loli.net/2020/10/28/FcmQRrVDGqSCsuz.png)
 
 目标接口为应用期望的一个接口格式，源接口为已经存在的一种接口规范格式。
 
@@ -79,7 +79,7 @@
 
 这时我们需要引入一个中间类，继承原来的业务逻辑类，也就是源接口，然后实现我们所期望的目标接口，通过中间的类将源接口中的方法，封装到我们自己所期望的目标接口方法中。这种方式就是**类适配器**。
 
-![adapter-object](C:\Users\mifengjun\Downloads\adapter-object.png)
+![adapter-object](https://i.loli.net/2020/10/28/Vc71iPM6j3BXfvl.png)
 
 **对象适配模式**是通过对象的组合来替代类的继承，好处我真的不想再说了，合成复用原则中讲过优先使用对象组合，其次考虑类的继承。
 
@@ -188,7 +188,7 @@ public class ArraysUtil {
 
 ## 总结 📚
 
-适配器模式叫我总结，只有两字。”能用就行“，为什么用这两个字来总结，是因为适配器本身就是一个再出现问题以后用来补救的。补丁一样。一般人不会上来就在系统初期写一些适配器在那里，如果是像上面列的一些对象转换型的适配那有点尴尬，合情合理。
+适配器模式叫我总结，只有两字。”能用就行“，为什么用这两个字来总结，是因为适配器本身就是一个在出现问题以后用来补救的。像一个补丁一样。一般人不会上来就在系统初期写一些适配器在那里，如果是像上面列的一些对象转换的话合情合理。
 
 适配器模式的出现是为了解决系统一些牵一发而动全身的事情，我们可以想象一下我的电脑没有 USB 接口（华为今年的最新款）难道我要把电脑拆了装个 USB 模组在里面吗？这显然是不可能的。所以有了扩展坞这东西。他就是为了解决这个问题的。（华为电脑这个是设计就没把外接设备接口留着，只留了一个充电的，和一个扩展坞的两个口）
 
