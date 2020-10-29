@@ -29,8 +29,8 @@ code template
  * 也可以加我微信（lvgocc）拉你进群
  *
  * @author lvgorice@gmail.com
- * @blog http://lvgo.org
- * @CSDN https://blog.csdn.net/sinat_34344123
+ * @blog @see http://lvgo.org
+ * @CSDN @see https://blog.csdn.net/sinat_34344123
  * @version 1.0
  * @date ${DATE}
  */
