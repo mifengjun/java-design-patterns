@@ -1,3 +1,5 @@
+![adapter-title.png](https://i.loli.net/2020/10/29/ir7LvpWXUykRABw.png)
+
 # 什么是"榫"
 
 嘶衣唔嗯ěn损，fao喽密，榫！
@@ -39,7 +41,7 @@
 
 这两个材料怎么接，榫不对卯，卯不对榫，接不上啊。
 
-![adapter2.png](adapter2.png)
+![adapter2.png](https://i.loli.net/2020/10/29/1h7yW2JRQPDzpgl.png)
 
 这可难不倒伟大的工匠艺人们，他们做出来了一个 榫卯，大概是这个样子。
 
@@ -87,8 +89,6 @@
 
 像对象四佩奇这种方式会更加的灵活。一般适配器更多会选为这种方式来进行两个接口的连接。
 
-
-
 ## 代码 📃
 
 学习适配器模式的时候，我没有再去找一些应用的案例来学习，因为我就一直在用这个模式。
@@ -119,7 +119,7 @@ public class DateUtil {
 
 这个是日期工具类，我们经常会有这种场景，数据库存放的是 Date 类型，但接口给过来的是 String 类型，或者这两者相反，总之需要将其正常存储或返回，这个时候我们通常会采取使用一个日期工具类，将数据格式进行一个转换，这其中，工具类担任的角色，我认为就是适配器的一个职责，”将两个本不能直接结合的材料进行了接合“。这个看起来很简单，但这就是适配的模式的精髓，就是为了解决类似问题而存在的。如果把上面的程序用一个类图来表示的话，就是这个样子。
 
-![dateUtil-adapter.png](dateUtil-adapter.png)
+![dateUtil-adapter.png](https://i.loli.net/2020/10/29/ZOHQ6bjR3otV9MP.png)
 
 
 
@@ -164,27 +164,21 @@ public class ArraysUtil {
 
 
 
-![jdk-adapter1.png](jdk-adapter1.png)
+![jdk-adapter1.png](https://i.loli.net/2020/10/29/iEl5pgUCJtTqYbQ.png)
 
 
 
-![jdk-adapter2.png](jdk-adapter2.png)
+![jdk-adapter2.png](https://i.loli.net/2020/10/29/EPbLzTx47Oljfu8.png)
 
 
 
-![jdk-adapter3.png](jdk-adapter3.png)
+![jdk-adapter3.png](https://i.loli.net/2020/10/29/acZyqYIs7onLUVw.png)
 
 
 
 哦，这里还有群里小伙伴@ruize 提供的一个他写的适配器，一起和大佬学习一下
 
-![ruize-adapter.png](ruize-adapter.png)
-
-
-
-
-
-
+![ruize-adapter.png](https://i.loli.net/2020/10/29/qHFrDaKclkP8MOY.png)
 
 ## 总结 📚
 
