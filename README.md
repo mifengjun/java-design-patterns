@@ -23,7 +23,7 @@
 - [x] [6. 代理模式：有什么问题跟我律师说吧！](https://github.com/lvgocc/java-design-patterns/tree/main/proxy)
 - [x] [7. 装饰者模式：玩了把坦克大战居然彻底搞懂了装饰者模式！](https://github.com/lvgocc/java-design-patterns/tree/main/decorator)
 - [x] [8. 桥接模式：这个不常用的设计模式居然被我学的最透，草率了！](https://github.com/lvgocc/java-design-patterns/tree/main/bridge)
-- [x] [9. 适配器模式：要是不认识榫字，可以点进来看看了，今天轻松点，就说说什么是“榫”，什么是“卯”，什么是“榫卯”！](https://github.com/lvgocc/java-design-patterns/tree/main/adapter)
+- [x] [9. 适配器模式：今天轻松点，就说说什么是“榫”，什么是“卯”，什么是“榫卯”！](https://github.com/lvgocc/java-design-patterns/tree/main/adapter)
 - [x] [10. 外观模式：书生的家书是谁送的？书童到底是个什么角色？](https://github.com/lvgocc/java-design-patterns/tree/main/facade)
 
 
