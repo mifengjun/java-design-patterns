@@ -4,6 +4,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
+ *
+ * 门面模式框架， SLFJ api
+ *
  * 欢迎跟我一起学习，公众号搜索：星尘的一个朋友
  * 也可以加我微信（lvgocc）拉你进群
  *

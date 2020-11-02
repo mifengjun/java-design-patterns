@@ -24,6 +24,7 @@
 - [x] [7. 装饰者模式：玩了把坦克大战居然彻底搞懂了装饰者模式！](https://github.com/lvgocc/java-design-patterns/tree/main/decorator)
 - [x] [8. 桥接模式：这个不常用的设计模式居然被我学的最透，草率了！](https://github.com/lvgocc/java-design-patterns/tree/main/bridge)
 - [x] [9. 适配器模式：要是不认识榫字，可以点进来看看了，今天轻松点，就说说什么是“榫”，什么是“卯”，什么是“榫卯”！](https://github.com/lvgocc/java-design-patterns/tree/main/adapter)
+- [x] [10. 外观模式：书生的家书是谁送的？书童到底是个什么角色？](https://github.com/lvgocc/java-design-patterns/tree/main/facade)
 
 
 
@@ -209,7 +210,7 @@
 - [x] [2. 适配器（Adapter）模式：将一个类的接口转换成客户希望的另外一个接口，使得原本由于接口不兼容而不能一起工作的那些类能一起工作。](https://github.com/lvgocc/java-design-patterns/tree/main/adapter)
 - [x] [3. 桥接（Bridge）模式：将抽象与实现分离，使它们可以独立变化。它是用组合关系代替继承关系来实现的，从而降低了抽象和实现这两个可变维度的耦合度。](https://github.com/lvgocc/java-design-patterns/tree/main/bridge)
 - [x] [4. 装饰（Decorator）模式：动态地给对象增加一些职责，即增加其额外的功能。](https://github.com/lvgocc/java-design-patterns/tree/main/decorator)
-- [ ] [5. 外观（Facade）模式：为多个复杂的子系统提供一个一致的接口，使这些子系统更加容易被访问。](https://github.com/lvgocc/java-design-patterns/tree/main/facade)
+- [x] [5. 外观（Facade）模式：为多个复杂的子系统提供一个一致的接口，使这些子系统更加容易被访问。](https://github.com/lvgocc/java-design-patterns/tree/main/facade)
 - [ ] 6.享元（Flyweight）模式：运用共享技术来有效地支持大量细粒度对象的复用。
 - [ ] 7.组合（Composite）模式：将对象组合成树状层次结构，使用户对单个对象和组合对象具有一致的访问性。
 
