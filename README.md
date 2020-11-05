@@ -211,7 +211,7 @@
 - [x] [3. 桥接（Bridge）模式：将抽象与实现分离，使它们可以独立变化。它是用组合关系代替继承关系来实现的，从而降低了抽象和实现这两个可变维度的耦合度。](https://github.com/lvgocc/java-design-patterns/tree/main/bridge)
 - [x] [4. 装饰（Decorator）模式：动态地给对象增加一些职责，即增加其额外的功能。](https://github.com/lvgocc/java-design-patterns/tree/main/decorator)
 - [x] [5. 外观（Facade）模式：为多个复杂的子系统提供一个一致的接口，使这些子系统更加容易被访问。](https://github.com/lvgocc/java-design-patterns/tree/main/facade)
-- [ ] 6.享元（Flyweight）模式：运用共享技术来有效地支持大量细粒度对象的复用。
+- [x] [6. 享元（Flyweight）模式：运用共享技术来有效地支持大量细粒度对象的复用。](https://github.com/lvgocc/java-design-patterns/tree/main/flyweight)
 - [ ] 7.组合（Composite）模式：将对象组合成树状层次结构，使用户对单个对象和组合对象具有一致的访问性。
 
 ## 🎭 行为型(11)

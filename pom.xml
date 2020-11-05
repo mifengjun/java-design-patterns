@@ -19,6 +19,7 @@
         <module>bridge</module>
         <module>adapter</module>
         <module>facade</module>
+        <module>flyweight</module>
     </modules>
 
     <name>java-design-patterns</name>
