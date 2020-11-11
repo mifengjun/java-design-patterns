@@ -13,4 +13,32 @@ package io.github.lvgocc.flyweight.lolarms;
  * @date 2020/11/10
  */
 public class RedArmsFactory extends ArmsFactory {
+    @Override
+    protected Arms createBuBing() {
+        System.out.println("创建一个红方步兵");
+        return new BuBing("red");
+    }
+
+    @Override
+    protected Arms createMoFaBing() {
+        System.out.println("创建一个红方魔法兵");
+        return new MoFaBing("red");
+    }
+
+    @Override
+    protected Arms createPaoChe() {
+        System.out.println("创建一个红方炮车");
+        return new PaoChe("red");
+    }
+
+
+    @Override
+    public Arms getArms(ArmsEnum arm) {
+        Arms arms = ARMS_CACHE.get("red" + arm.name());
+        if (arms == null) {
+            arms = super.check(arm);
+            ARMS_CACHE.put("red" + arm.name(), arms);
+        }
+        return arms;
+    }
 }

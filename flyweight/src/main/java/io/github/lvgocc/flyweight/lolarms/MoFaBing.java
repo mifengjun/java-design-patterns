@@ -1,12 +1,10 @@
 package io.github.lvgocc.flyweight.lolarms;
 
-import java.util.Objects;
-
 /**
  * 欢迎跟我一起学习，公众号搜索：星尘的一个朋友
  * 也可以加我微信（lvgocc）拉你进群
  * <p>
- * 小兵接口
+ * 魔法兵
  *
  * @author lvgorice@gmail.com
  * @version 1.0
@@ -14,20 +12,13 @@ import java.util.Objects;
  * @CSDN @see https://blog.csdn.net/sinat_34344123
  * @date 2020/11/10
  */
-public abstract class Arms {
-    private boolean red;
-
-    public Arms(String redOrBlue) {
-        this.red = Objects.equals("red", redOrBlue);
+public class MoFaBing extends Arms {
+    public MoFaBing(String redOrBlue) {
+        super(redOrBlue);
     }
 
-    public boolean isBlue() {
-        return !red;
+    @Override
+    protected void attack() {
+        System.out.println(isBlue() ? "蓝" : "红" + "方魔法兵释放了魔法，呼！");
     }
-
-    public boolean isRed() {
-        return red;
-    }
-
-    protected abstract void attack();
 }
