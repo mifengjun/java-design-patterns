@@ -20,8 +20,6 @@ class ArmsFactoryTest {
             armsTotal++;
             blueArms.getArms(ArmsEnum.PAOCHE);
             armsTotal++;
-            System.out.println("蓝方第" + i + 1 + "波兵线");
-            System.out.println(String.format("当前场上共有 %s 个小兵", armsTotal));
         }
 
 
@@ -34,11 +32,9 @@ class ArmsFactoryTest {
             armsTotal++;
             redArms.getArms(ArmsEnum.PAOCHE);
             armsTotal++;
-            System.out.println("红方第" + i + 1 + "波兵线");
-            System.out.println(String.format("当前场上共有 %s 个小兵", armsTotal));
         }
 
-
+        System.out.println(String.format("当前场上共有 %s 个小兵", armsTotal));
         System.out.println(String.format("当前享元对象(内存)共有 %s 个小兵", ArmsFactory.getArmsSize()));
     }
 }
