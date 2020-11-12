@@ -1,12 +1,14 @@
+![flyweight-title](https://i.loli.net/2020/11/12/CKNbypcrJwdgflx.png)
+
 # 享元模式
 
 > 运用共享技术来有效地支持大量细粒度对象的复用。
 
 这个设计模式在 GOF 的书中是用 flyweight 这个词来定义这种模式的，然后翻译成中文就叫 享元 了，讲真挺不自在，首先这个词是一个自造词（享元）
 
-![flyweight-search.png](flyweight-search.png)
+![flyweight-search.png](https://i.loli.net/2020/11/12/b8iZeYslH47DO6a.png)
 
-至于为什么翻译享元已经不重要了，这都不会影响我们学习的对不对！
+再者就是这个词语我认为用轻量化的解释更合适，不过现在被翻译成享元肯定是有他的原因的，至于为什么翻译享元已经不重要了，这都不会影响我们学习的对不对！
 
 ## 如何理解
 
@@ -19,6 +21,8 @@
 **声明：以下内容只为学习类比使用，并不代表游戏设计方案，游戏如何设计实现，我未参与，也未研究，感兴趣的可自行了解。**
 
 ### 1. 我的世界
+
+![mc](https://i.loli.net/2020/11/12/qOtZ4YdgxePj1Iy.jpg)
 
 #### 游戏地图
 
@@ -35,6 +39,8 @@
 
 
 ### 2.英雄联盟
+
+![lol](https://i.loli.net/2020/11/12/Wxw5741lX6ThejY.jpg)
 
 英雄联盟这款游戏大家应该并不陌生，S10 刚刚结束（10月31日全球总决赛），SN来年再战，加油。
 
@@ -64,21 +70,21 @@
 
 下面这个类图顺便复习了一下 **抽象工厂模式**。
 
-![flyweight-bingxian](flyweight-bingxian.png)
+![flyweight-bingxian](https://i.loli.net/2020/11/12/dKDUbQ9sJRvFmTA.png)
 
 
 
 ## 享元模式类图 📌
 
-![flyweight.png](flyweight.png)
+![flyweight.png](https://i.loli.net/2020/11/12/YgS7J51GWuwZPBX.png)
 
 ## 代码 📃
 
 下面就使用 **享元模式** 来模拟一下英雄联盟的兵线的开发。
 
-![flyweight-coder.png](flyweight-coder.png)
+![flyweight-coder.png](https://i.loli.net/2020/11/12/stDkSmh83HpK1TV.png)
 
-![flyweight-test.png](flyweight-test.png)
+![flyweight-test.png](https://i.loli.net/2020/11/12/Yrh3FlIOuH5jREd.png)
 
 > 关注回复 “源码” 获取享元模式创建LOL兵线代码。
 
