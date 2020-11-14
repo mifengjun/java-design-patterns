@@ -1,4 +1,4 @@
-![flyweight-title](https://i.loli.net/2020/11/12/CKNbypcrJwdgflx.png)
+![flyweight-title](flyweight-title.png)
 
 # 享元模式
 
