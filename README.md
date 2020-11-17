@@ -26,6 +26,7 @@
 - [x] [9. 适配器模式：今天轻松点，就说说什么是“榫”，什么是“卯”，什么是“榫卯”！](https://github.com/lvgocc/java-design-patterns/tree/main/adapter)
 - [x] [10. 外观模式：书生的家书是谁送的？书童到底是个什么角色？](https://github.com/lvgocc/java-design-patterns/tree/main/facade)
 - [x] [11. 享元模式：如果让你开发英雄联盟的兵线，你会怎么设计？](https://github.com/lvgocc/java-design-patterns/tree/main/flyweight)
+- [x] [12. 组合模式：使用组合模式做一个简单的推荐功能](https://github.com/lvgocc/java-design-patterns/tree/main/composite)
 
 
 
@@ -133,7 +134,7 @@
 - [x] [4. 装饰（Decorator）模式：动态地给对象增加一些职责，即增加其额外的功能。](https://github.com/lvgocc/java-design-patterns/tree/main/decorator)
 - [x] [5. 外观（Facade）模式：为多个复杂的子系统提供一个一致的接口，使这些子系统更加容易被访问。](https://github.com/lvgocc/java-design-patterns/tree/main/facade)
 - [x] [6. 享元（Flyweight）模式：运用共享技术来有效地支持大量细粒度对象的复用。](https://github.com/lvgocc/java-design-patterns/tree/main/flyweight)
-- [ ] 7.组合（Composite）模式：将对象组合成树状层次结构，使用户对单个对象和组合对象具有一致的访问性。
+- [x] [7. 组合（Composite）模式：将对象组合成树状层次结构，使用户对单个对象和组合对象具有一致的访问性。](https://github.com/lvgocc/java-design-patterns/tree/main/composite)
 
 ## 🎭 行为型(11)
 
