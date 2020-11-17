@@ -21,6 +21,7 @@
         <module>facade</module>
         <module>flyweight</module>
         <module>composite</module>
+        <module>template-method</module>
     </modules>
 
     <name>java-design-patterns</name>
