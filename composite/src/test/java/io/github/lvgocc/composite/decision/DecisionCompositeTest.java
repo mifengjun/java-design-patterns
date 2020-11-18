@@ -34,8 +34,8 @@ class DecisionCompositeTest {
         genderMale.add(ageLess20);
         genderMale.add(ageThan40);
 
-        ageLess20.add(new DecisionResult("决策结果", "玩具", 2020));
-        ageAmong30and40.add(new DecisionResult("决策结果", "枸杞", 2020));
+        ageLess20.add(new DecisionResult("决策结果", "玩具"));
+        ageAmong30and40.add(new DecisionResult("决策结果", "枸杞"));
     }
 
     @Test

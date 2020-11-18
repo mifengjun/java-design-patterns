@@ -19,19 +19,10 @@ public class DecisionResult extends DecisionComponent {
      * 商品类型
      */
     private String type;
-    /**
-     * 商品数量
-     */
-    private int total;
 
-    public DecisionResult(String name, String type, int total) {
+    public DecisionResult(String name, String type) {
         super(name);
         this.type = type;
-        this.total = total;
-    }
-
-    public DecisionResult(String name) {
-        super(name);
     }
 
     public String getType() {
@@ -42,19 +33,10 @@ public class DecisionResult extends DecisionComponent {
         this.type = type;
     }
 
-    public int getTotal() {
-        return total;
-    }
-
-    public void setTotal(int total) {
-        this.total = total;
-    }
-
     @Override
     public String toString() {
         return new StringJoiner(", ", DecisionResult.class.getSimpleName() + "[", "]")
                 .add("type='" + type + "'")
-                .add("total=" + total)
                 .toString();
     }
 
