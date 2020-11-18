@@ -42,7 +42,7 @@
 
 **放一张图**
 
-![composite-tree.png](composite-tree.png)
+![composite-tree.png](https://i.loli.net/2020/11/18/ix4bmnCvVeZt1WB.png)
 
 > 图片来源 [http://c.biancheng.net/view/1373.html](http://c.biancheng.net/view/1373.html)
 
@@ -50,7 +50,7 @@
 
 ## 组合模式类图 📌
 
-![composite-UML.png](composite-UML.png)
+![composite-UML.png](https://i.loli.net/2020/11/18/IBSMYHvNkALojDb.png)
 
 
 
@@ -62,13 +62,13 @@
 
 
 
-![composite-code](composite-code.png)
+![composite-code](https://i.loli.net/2020/11/18/PRYgzetrOd1uB9p.png)
 
 通过代码实现以上结构后，
 
 > 篇幅原因完整代码关注回复“**源码**”获取
 
-![composite-code1.png](composite-code1.png)
+![composite-code1.png](https://i.loli.net/2020/11/18/o7aBkLicKZWnz6G.png)
 
 核心代码
 
@@ -98,7 +98,7 @@
 
 输出结果：
 
-![composite-test-result.png](composite-test-result.png)
+![composite-test-result.png](https://i.loli.net/2020/11/18/ZRQotEphMvnbeL8.png)
 
 
 
@@ -115,7 +115,7 @@
 
 **透明的组合模式类图**
 
-![composite-UML.png](composite-UML.png)
+![composite-UML.png](https://i.loli.net/2020/11/18/IBSMYHvNkALojDb.png)
 
 透明的组合模式希望各个节点（子节点、叶节点）行为与抽象节点一致，这样即高层模块无需关心是否是子节点还是叶节点，方法一样的使用，但是对于子节点，因为其没有继续的分支，所以一些方法是没有具体的实现的，这就导致这些“空方法”高层模块是不知情的，所以称为透明的。
 
@@ -123,7 +123,7 @@
 
 **已知的组合模式类图**
 
-![composite-safe-UML](composite-safe-UML.png)
+![composite-safe-UML](https://i.loli.net/2020/11/18/Sy2Ed9eG6LOlbZz.png)
 
 这个已知的名字是我起的，书上大多说的是安全方式。要表达的意思就是高层模块需要知道自己调用的节点是子节点还是叶子节点。
 
@@ -131,7 +131,7 @@
 
 相信大家都用过 maven 来管理多模块项目，maven的结构主要分为三类，继承、聚合、依赖，以下这些命令在 root 模块执行的时候，就可以将整个项目完成对应的操作，当你在单个模块中使用的时候，他也只会影响单个模块或该模块以下的模块。
 
-![maven-lifecycle.png](maven-lifecycle.png)
+![maven-lifecycle.png](https://i.loli.net/2020/11/18/J67uzqmg8YcAPUd.png)
 
 # 再墨迹一点
 
