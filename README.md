@@ -27,6 +27,7 @@
 - [x] [10. 外观模式：书生的家书是谁送的？书童到底是个什么角色？](https://github.com/lvgocc/java-design-patterns/tree/main/facade)
 - [x] [11. 享元模式：如果让你开发英雄联盟的兵线，你会怎么设计？](https://github.com/lvgocc/java-design-patterns/tree/main/flyweight)
 - [x] [12. 组合模式：使用组合模式做一个简单的推荐功能](https://github.com/lvgocc/java-design-patterns/tree/main/composite)
+- [x] [13. 策略模式：学习JDK的比较器架构是如何设计的](https://github.com/lvgocc/java-design-patterns/tree/main/strategy)
 
 
 
@@ -139,7 +140,7 @@
 ## 🎭 行为型(11)
 
 - [ ] 1.模板方法（Template Method）模式：定义一个操作中的算法骨架，将算法的一些步骤延迟到子类中，使得子类在可以不改变该算法结构的情况下重定义该算法的某些特定步骤。
-- [ ] 2.策略（Strategy）模式：定义了一系列算法，并将每个算法封装起来，使它们可以相互替换，且算法的改变不会影响使用算法的客户。
+- [x] [2. 策略（Strategy）模式：定义了一系列算法，并将每个算法封装起来，使它们可以相互替换，且算法的改变不会影响使用算法的客户。](https://github.com/lvgocc/java-design-patterns/tree/main/strategy)
 - [ ] 3.命令（Command）模式：将一个请求封装为一个对象，使发出请求的责任和执行请求的责任分割开。
 - [ ] 4.职责链（Chain of Responsibility）模式：把请求从链中的一个对象传到下一个对象，直到请求被响应为止。通过这种方式去除对象之间的耦合。
 - [ ] 5.状态（State）模式：允许一个对象在其内部状态发生改变时改变其行为能力。
