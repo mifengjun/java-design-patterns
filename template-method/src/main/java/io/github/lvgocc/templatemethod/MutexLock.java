@@ -19,7 +19,7 @@ import java.util.concurrent.locks.Lock;
  */
 public class MutexLock implements Lock {
 
-    private Sync sync = new Sync();
+    private final Sync sync = new Sync();
 
     @Override
     public void lock() {
@@ -51,7 +51,7 @@ public class MutexLock implements Lock {
         return sync.newCondition();
     }
 
-    class Sync extends AbstractQueuedSynchronizer {
+    final static class Sync extends AbstractQueuedSynchronizer {
         @Override
         protected boolean tryAcquire(int arg) {
             if (compareAndSetState(0, arg)) {
