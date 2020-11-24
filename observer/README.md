@@ -1,3 +1,5 @@
+![observer-title.png](https://i.loli.net/2020/11/24/NYiKTrU5G2BnkEs.png)
+
 # 观察者模式
 
 > 多个对象间存在一对多关系，当一个对象发生改变时，把这种改变通知给其他多个对象，从而影响其他对象的行为。
@@ -19,7 +21,7 @@
 
 ## 观察者模式类图 📌
 
-![observer-UML.png](observer-UML.png)
+![observer-UML.png](https://i.loli.net/2020/11/24/ybnYo1RH5wNC9Gk.png)
 
 1. 被观察者（Observable）
 2. 观察者（Observer）
