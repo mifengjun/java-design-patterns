@@ -23,6 +23,7 @@
         <module>composite</module>
         <module>template-method</module>
         <module>strategy</module>
+        <module>observer</module>
     </modules>
 
     <name>java-design-patterns</name>

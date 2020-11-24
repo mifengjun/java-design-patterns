@@ -1,3 +1,7 @@
+``推荐使用 wiki 食用更香``[https://github.com/lvgocc/java-design-patterns/wiki](https://github.com/lvgocc/java-design-patterns/wiki)
+
+原创声明：除设计模式背景或概念性内容外，其余全部内容均为自己深入理解原创输出，希望能够得到你支持的 star ⭐
+
 # 设计模式（Java实现）
 
 　　设计模式专题，共 23 种设计模式。每种设计模式均从根本出发，深入理解设计思想，再配合一些小故事加以理解，让设计模式变得通俗易懂。让自己和现在正在阅读的你，能够知其然而知其所以然。
@@ -28,10 +32,10 @@
 - [x] [11. 享元模式：如果让你开发英雄联盟的兵线，你会怎么设计？](https://github.com/lvgocc/java-design-patterns/tree/main/flyweight)
 - [x] [12. 组合模式：使用组合模式做一个简单的推荐功能](https://github.com/lvgocc/java-design-patterns/tree/main/composite)
 - [x] [13. 策略模式：学习JDK的比较器架构是如何设计的](https://github.com/lvgocc/java-design-patterns/tree/main/strategy)
+- [x] [14. 模板方法模式：你知道AQS它是干什么的吧，那这个框架是怎么设计的呢？](https://github.com/lvgocc/java-design-patterns/tree/main/template-method)
+- [x] [15. 观察者模式：原来观察者模式是JDK与生俱来的](https://github.com/lvgocc/java-design-patterns/tree/main/observer)
 
-
-
-每一篇都有对应的文章配合源码学习，文章以通俗为主，易懂为辅。学渣的心情学习学霸的知识，我不善搞深奥的东西，但喜欢将深奥的东西变成简单的东西，我深信复杂度守恒定律，我也相信讲出来的东西是为了让大家能听懂而不是自己秀知识储备而已。听懂掌声。
+每一篇都有对应的文章配合源码学习，文章通俗易懂。以学渣的姿态来学习学霸的知识，我不善搞深奥的东西，但喜欢将深奥的东西变成简单的东西，我深信复杂度守恒定律，我也相信讲出来的东西是为了让大家能听懂而不是自己秀知识储备而已。听懂掌声。
 
 # 软件设计模式背景
 
@@ -139,12 +143,12 @@
 
 ## 🎭 行为型(11)
 
-- [ ] 1.模板方法（Template Method）模式：定义一个操作中的算法骨架，将算法的一些步骤延迟到子类中，使得子类在可以不改变该算法结构的情况下重定义该算法的某些特定步骤。
+- [x] [1. 模板方法（Template Method）模式：定义一个操作中的算法骨架，将算法的一些步骤延迟到子类中，使得子类在可以不改变该算法结构的情况下重定义该算法的某些特定步骤。](https://github.com/lvgocc/java-design-patterns/tree/main/template-method)
 - [x] [2. 策略（Strategy）模式：定义了一系列算法，并将每个算法封装起来，使它们可以相互替换，且算法的改变不会影响使用算法的客户。](https://github.com/lvgocc/java-design-patterns/tree/main/strategy)
 - [ ] 3.命令（Command）模式：将一个请求封装为一个对象，使发出请求的责任和执行请求的责任分割开。
 - [ ] 4.职责链（Chain of Responsibility）模式：把请求从链中的一个对象传到下一个对象，直到请求被响应为止。通过这种方式去除对象之间的耦合。
 - [ ] 5.状态（State）模式：允许一个对象在其内部状态发生改变时改变其行为能力。
-- [ ] 6.观察者（Observer）模式：多个对象间存在一对多关系，当一个对象发生改变时，把这种改变通知给其他多个对象，从而影响其他对象的行为。
+- [x] [6. 观察者（Observer）模式：多个对象间存在一对多关系，当一个对象发生改变时，把这种改变通知给其他多个对象，从而影响其他对象的行为。](https://github.com/lvgocc/java-design-patterns/tree/main/observer)
 - [ ] 7.中介者（Mediator）模式：定义一个中介对象来简化原有对象之间的交互关系，降低系统中对象间的耦合度，使原有对象之间不必相互了解。
 - [ ] 8.迭代器（Iterator）模式：提供一种方法来顺序访问聚合对象中的一系列数据，而不暴露聚合对象的内部表示。
 - [ ] 9.访问者（Visitor）模式：在不改变集合元素的前提下，为一个集合中的每个元素提供多种访问方式，即每个元素有多个访问者对象访问。
@@ -156,7 +160,7 @@
 
 　　该设计模式专题将用以记录笔者技术生涯的一次沉淀过程，一共会分为 23 篇文章以及对应的源码内容，文中内容和源码均为自我理解学习沉淀分享，目的与各位一起学习，一起完成心中的梦想。
 
-　　笔者技术水平、理解能力均有限，如有读者发现有歧义甚至错误的地方，希望可以通过评论或私信或邮箱等等让我知道的途径提醒笔者改正。记得点个 star ⭐ 哦 ヾ(≧▽≦*)o [https://github.com/lvgocc/java-design-patterns](https://github.com/lvgocc/java-design-patterns)
+　　笔者技术水平、理解能力均有限，如有读者发现有歧义甚至错误的地方，希望可以通过评论或私信或邮箱等等让我知道的途径提醒笔者改正。
 
 ----
 <div align="center">
