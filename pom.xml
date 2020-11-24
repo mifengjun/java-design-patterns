@@ -24,6 +24,7 @@
         <module>template-method</module>
         <module>strategy</module>
         <module>observer</module>
+        <module>chain-of-responsibility</module>
     </modules>
 
     <name>java-design-patterns</name>
