@@ -1,3 +1,5 @@
+![template-method-title.png](https://i.loli.net/2020/11/24/65JlOrxysH82ivQ.png)
+
 # 冲啊！
 
 最近经常看《四驱兄弟》，脑子已经被“冲啊”洗掉了。
@@ -20,7 +22,7 @@
 
 - 还有如果你使用过 maven 创建过项目，那这个你一定不陌生
 
-![template-method-maven.png](template-method-maven.png)
+![template-method-maven.png](https://i.loli.net/2020/11/24/1mWL2Nnue5A3yrF.png)
 
 ## 重新定义
 
@@ -28,7 +30,7 @@
 
 ## 模板方法模式类图 📌
 
-![template-method](template-method.png)
+![template-method](https://i.loli.net/2020/11/24/RsQzpH46XNZTWcd.png)
 
 看类图就是抽象和子类的样子，而实际模板方法模式就是利用了"抽象"。是一个完全遵守开闭原则的设计模式。可以这么说，搞懂了模板方法模式，开闭原则基本就通了。
 
@@ -126,7 +128,7 @@ public class MutexLock implements Lock {
 
 之后 AQS 按照它的模板继续执行，在需要的时候（特殊步骤）会调用我们自己提供的方法，锁具体的实现要自行实现，模板类 AQS 不提供具体实现。
 
-![template-method-AQS1.png](template-method-AQS1.png)
+![template-method-AQS1.png](https://i.loli.net/2020/11/24/ruJo4M3l1SF9ILO.png)
 
 ```java
         // 重写 AQS 的特殊步骤，如果不写会抛出上述异常
@@ -143,7 +145,7 @@ public class MutexLock implements Lock {
 
 通过一个图来理解这个过程
 
-![template-method-AQS2.png](template-method-AQS2.png)
+![template-method-AQS2.png](https://i.loli.net/2020/11/24/Vl3LZn1STyj8MbU.png)
 
 其中“**特殊步骤**”就是 AQS 模板留给我们要实现的地方。
 
@@ -184,7 +186,7 @@ class MutexLockTest {
 
 **运行结果**
 
-![template-method-test.png](template-method-test.png)
+![template-method-test.png](https://i.loli.net/2020/11/24/bXn3FYOSryAseka.png)
 
 这里建议大家配合源码学习，同时也能学习一些与锁实现上的一些相关知识，如果有不清楚或觉得有疑问的地方，欢迎加我微信一起讨论（lvgocc）
 
