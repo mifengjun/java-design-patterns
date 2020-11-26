@@ -18,19 +18,110 @@
 
 ![chain-of-responsibility-wanger](chain-of-responsibility-wanger.png)
 
-王二卒。
+**王二卒。**
+
+
+
+王二这件事被同事张三知道后，张三决定为了纪念王二的悲催经历。他决定向领导提出一个流程调整方案，具体的意见如下；
+
+1. 请假时每个人的动作相同，均为审批。至于审批是同意或拒绝由审批者自己决定。
+2. 对请假流程中涉及的人员使用链式传递。不得跨越（即每个人必须都需要经过处理后才能继续传递）。
 
 
 
 ## 责任链模式类图 📌
 
+![chain-of-responsibility-UML.png](chain-of-responsibility-UML.png)
 
 
-## 代码 📃
+
+## 张三请假 📃
+
+张三使用责任链模式请假流程示意图
+
+![chain-of-responsibility-zhangsan](chain-of-responsibility-zhangsan.png)
+
+抽象处理类，各个环节处理时统一标准。
+
+```java
+public abstract class AbstractHandler {
+
+    protected AbstractHandler next;
+
+    public AbstractHandler getNext() {
+        return next;
+    }
+
+    public void setNext(AbstractHandler next) {
+        this.next = next;
+    }
+
+    protected void handle(String request) {
+        conCreteHandle(request);
+        if (getNext() == null) {
+            System.out.println("流程结束");
+        } else {
+            getNext().handle(request);
+        }
+    }
+
+    protected abstract void conCreteHandle(String request);
+}
+```
 
 
+
+```java
+public class QingJia extends AbstractHandler{
+    @Override
+    protected void conCreteHandle(String request) {
+        System.out.println(request);
+    }
+}
+```
+
+
+
+```java
+class AbstractHandlerTest {
+
+    @Test
+    void handle() {
+        AbstractHandler qingJia = new QingJia();
+        AbstractHandler renShi = new RenShi();
+        AbstractHandler shangjiLingdao = new ShangjiLingdao();
+        AbstractHandler tongShi = new TongShi();
+        AbstractHandler zuZhang = new ZuZhang();
+
+        qingJia.setNext(tongShi);
+        tongShi.setNext(zuZhang);
+        zuZhang.setNext(shangjiLingdao);
+        shangjiLingdao.setNext(renShi);
+
+        qingJia.handle("张三请假");
+
+    }
+}
+```
+
+测试张三请假
+
+```text
+张三请假
+同事审批：同意
+组长审批：同意
+上级领导审批：同意
+人事审批：同意
+流程结束
+```
+
+> 完整代码文末关注，回复 “源码” 获取。
 
 ## 总结 📚
+
+使用责任链模式可以使原本的对象间耦合度降低。各个模块间功能更加具体专注。同时链上的处理也可以更加灵活，可以通过处理请求的时候进行判断来过滤自己关注的内容来处理，或者在生成链的时候将无关节点去掉。
+
+同时可以配合创建型模式中的工厂模式，来封装链的维护，这样在链上节点发生变化时（算法实现发生改变、新增或删除）对于高层模块是没有感知的。扩展起来非常的方便。或使用建造者模式来更加灵活地创建这条“责任链”，以达到客户端的自定义目的。总之，责任链模式在处理链式问题是个利器。
 
 
 
