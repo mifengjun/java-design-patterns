@@ -36,6 +36,7 @@
 - [x] [15. 观察者模式：原来观察者模式是JDK与生俱来的](https://github.com/lvgocc/java-design-patterns/tree/main/observer)
 - [x] [16. 责任链模式：“张三为了纪念王二请假的悲催经历想出来的一种设计模式”](https://github.com/lvgocc/java-design-patterns/tree/main/chain-of-responsibility)
 - [x] [17. 备忘录模式：这款游戏你玩过吗？是不是经常”重来“？](https://github.com/lvgocc/java-design-patterns/tree/main/memento)
+- [x] [18. 迭代器模式：你真的“会”遍历list吗？](https://github.com/lvgocc/java-design-patterns/tree/main/iterator)
 
 每一篇都有对应的文章配合源码学习，文章通俗易懂。以学渣的姿态来学习学霸的知识，我不善搞深奥的东西，但喜欢将深奥的东西变成简单的东西，我深信复杂度守恒定律，我也相信讲出来的东西是为了让大家能听懂而不是自己秀知识储备而已。听懂掌声。
 
