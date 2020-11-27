@@ -18,7 +18,7 @@ public class Appetizer {
 
     public static void main(String[] args) {
         ArrayList<String> strings = new ArrayList<>();
-        int count = 1000000;
+        int count = 4000000;
         for (int i = 1; i <= count; i++) {
             strings.add("第" + i + "个元素");
         }

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="80.0">java.util.Iterator</node>
+    <node x="136.0" y="0.0">java.lang.Iterable</node>
+    <node x="132.0" y="80.0">java.util.ArrayList</node>
+    <node x="88.0" y="160.0">java.util.ArrayList.Itr</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.ArrayList.Itr" target="java.util.Iterator">
+      <point x="-18.0" y="-15.0" />
+      <point x="106.0" y="135.0" />
+      <point x="56.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.ArrayList.Itr" target="java.util.ArrayList">
+      <point x="18.0" y="-15.0" />
+      <point x="142.0" y="135.0" />
+      <point x="192.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.ArrayList" target="java.lang.Iterable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="126.0" y="95.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
