@@ -37,6 +37,7 @@
 - [x] [16. 责任链模式：“张三为了纪念王二请假的悲催经历想出来的一种设计模式”](https://github.com/lvgocc/java-design-patterns/tree/main/chain-of-responsibility)
 - [x] [17. 备忘录模式：这款游戏你玩过吗？是不是经常”重来“？](https://github.com/lvgocc/java-design-patterns/tree/main/memento)
 - [x] [18. 迭代器模式：你真的“会”遍历list吗？](https://github.com/lvgocc/java-design-patterns/tree/main/iterator)
+- [x] [19. 命令模式：如果把请求变成一个对象，在一些场景更好用！](https://github.com/lvgocc/java-design-patterns/tree/main/command)
 
 每一篇都有对应的文章配合源码学习，文章通俗易懂。以学渣的姿态来学习学霸的知识，我不善搞深奥的东西，但喜欢将深奥的东西变成简单的东西，我深信复杂度守恒定律，我也相信讲出来的东西是为了让大家能听懂而不是自己秀知识储备而已。听懂掌声。
 
@@ -148,7 +149,7 @@
 
 - [x] [1. 模板方法（Template Method）模式：定义一个操作中的算法骨架，将算法的一些步骤延迟到子类中，使得子类在可以不改变该算法结构的情况下重定义该算法的某些特定步骤。](https://github.com/lvgocc/java-design-patterns/tree/main/template-method)
 - [x] [2. 策略（Strategy）模式：定义了一系列算法，并将每个算法封装起来，使它们可以相互替换，且算法的改变不会影响使用算法的客户。](https://github.com/lvgocc/java-design-patterns/tree/main/strategy)
-- [ ] 3.命令（Command）模式：将一个请求封装为一个对象，使发出请求的责任和执行请求的责任分割开。
+- [x] [3. 命令（Command）模式：将一个请求封装为一个对象，使发出请求的责任和执行请求的责任分割开。](https://github.com/lvgocc/java-design-patterns/tree/main/command)
 - [x] [4. 职责链（Chain of Responsibility）模式：把请求从链中的一个对象传到下一个对象，直到请求被响应为止。通过这种方式去除对象之间的耦合。](https://github.com/lvgocc/java-design-patterns/tree/main/chain-of-responsibility)
 - [ ] 5.状态（State）模式：允许一个对象在其内部状态发生改变时改变其行为能力。
 - [x] [6. 观察者（Observer）模式：多个对象间存在一对多关系，当一个对象发生改变时，把这种改变通知给其他多个对象，从而影响其他对象的行为。](https://github.com/lvgocc/java-design-patterns/tree/main/observer)

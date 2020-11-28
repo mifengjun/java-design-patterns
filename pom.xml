@@ -27,6 +27,7 @@
         <module>chain-of-responsibility</module>
         <module>memento</module>
         <module>iterator</module>
+        <module>command</module>
     </modules>
 
     <name>java-design-patterns</name>
