@@ -164,7 +164,7 @@ for(int i = 0; i < strings.size(); i++)
 
 为了更直观的展示，我整理了一张统计图
 
-![10万-1250万数据量4种方式遍历list统计图](10万-1250万数据量4种方式遍历list统计图.png)
+![10万-1250万数据量4种方式遍历list统计图](https://i.loli.net/2020/11/28/VR5IWpXJtTPgKAB.png)
 
 通过数据也证实了 迭代器 和 增强 for 循环的写法效果相同。
 
@@ -179,7 +179,7 @@ public interface RandomAccess {
 
 标记。标记其为随机访问集合。
 
-![run-faster-than](run-faster-than.png)
+![run-faster-than](https://i.loli.net/2020/11/28/XqV1x3iUp5YCQjk.png)
 
 Java 官方给出的遍历说明：根据经验，下标要比迭代器更快。
 
@@ -215,13 +215,13 @@ Java 官方给出的遍历说明：根据经验，下标要比迭代器更快。
 
 ## 迭代器模式类图 📌
 
-![iterator-JDK-UML](iterator-JDK-UML.png)
+![iterator-JDK-UML](https://i.loli.net/2020/11/28/4doaxqQrbWgUhvM.png)
 
 下面是根据 JDK 的类直接生成的 UML 类图
 
 > 注意：并非全部类生成的 UML 类图，这里去掉了一些无关类。
 
-![iterator-idea-UML.png](iterator-idea-UML.png)
+![iterator-idea-UML.png](https://i.loli.net/2020/11/28/LSbEmXAoFpGnN8U.png)
 
 
 
