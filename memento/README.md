@@ -6,19 +6,19 @@
 
 **Don't Starve**
 
-![Don't Starve.jpg](Don't Starve.jpg)
+![Don't Starve.jpg](https://i.loli.net/2020/11/28/uWjlqrXoOhPLIxY.jpg)
 
 
 
 **unascribed-game1**
 
-![unascribed-game.jpg](unascribed-game.jpg)
+![unascribed-game.jpg](https://i.loli.net/2020/11/28/18vxNgFbsJpASw6.jpg)
 
 
 
 **unascribed-game2**
 
-![unascribed-game2.jpg](unascribed-game2.jpg)
+![unascribed-game2.jpg](https://i.loli.net/2020/11/28/Dl5H9G82FkpO4P1.jpg)
 
 
 
@@ -43,23 +43,23 @@
 
 > 完整源码关注回复“源码获取”
 
-![memento-source](memento-source.png)
+![memento-source](https://i.loli.net/2020/11/28/ODChyStnGzM47Lo.png)
 
 测试结果
 
-![memento-test](memento-test.png)
+![memento-test](https://i.loli.net/2020/11/28/57jB1tPbwWDsdJR.png)
 
 **展示存档列表**
 
-![memento-list-test](memento-list-test.png)
+![memento-list-test](https://i.loli.net/2020/11/28/9SrAQZD465qW1zl.png)
 
 ## 备忘录模式类图 📌
 
-![memento-UML1](memento-UML1.png)
+![memento-UML1](https://i.loli.net/2020/11/28/hHtJlIPN9OTw4KL.png)
 
 上面的代码是以这种类图方式实现的，不过这在 Java 中显然有可以优化的地方。即将 Caretaker 角色优化掉。优化后的类图
 
-![memento-UML2](memento-UML2.png)
+![memento-UML2](https://i.loli.net/2020/11/28/GNXw8MnRPskxbSh.png)
 
 
 
