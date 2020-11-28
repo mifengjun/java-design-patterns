@@ -14,8 +14,6 @@ lvgocc java design pattern maven archetype description
 5. 填写
 ![](https://i.loli.net/2020/10/18/Skm5hszyRwIK9qr.png)
 
-
-
 ----
 
 code template
