@@ -308,7 +308,7 @@ public enum EnumIvoryTower {
  * @since 1.2
  */
 
-public interface Collection<E> extends Iterable<E> {
+public interface Collection<E> extends Iterable<E> {}
 ```
 
 老爷子的github ：https://github.com/jbloch
