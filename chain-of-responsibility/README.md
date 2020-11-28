@@ -1,4 +1,4 @@
-![chain-of-responsibility.png](chain-of-responsibility.png)
+![chain-of-responsibility.png](https://i.loli.net/2020/11/28/25fjXDYo4VriF9l.png)
 
 > 图片来源：https://refactoringguru.cn/design-patterns/chain-of-responsibility
 
@@ -10,13 +10,13 @@
 
 假设这个业务场景需要请求的对象是存在联系的，比如具有一定顺序去消费同一个对象，又比如他们消费对象的方法相同，具体逻辑略有差异。此时如果这个水桶对象的传递不通过责任链这种模式，看看会有什么问题。
 
-![chain-of-responsibility-none](chain-of-responsibility-none.png)
+![chain-of-responsibility-none](https://i.loli.net/2020/11/28/UuO5PtAK6Xwvx1q.png)
 
 王二需要分为4个时刻与4个不同的对象进行交互，这无疑增加了系统的复杂性。并且这里其中任意一个请求目标发生变化，王二都必须要跟着调整。再比如下面这个生活中的例子。
 
 王二因为一些原因不能上班，需要和领导请假，卑微的王二在单位的职位级别比较低，需要多级领导审批，甚至同事都是一个坎，让我们看看没有责任链模式介入时王二的请假过程。
 
-![chain-of-responsibility-wanger](chain-of-responsibility-wanger.png)
+![chain-of-responsibility-wanger](https://i.loli.net/2020/11/28/f2Vca1v5tFpGPhn.png)
 
 **王二卒。**
 
@@ -31,7 +31,7 @@
 
 ## 责任链模式类图 📌
 
-![chain-of-responsibility-UML.png](chain-of-responsibility-UML.png)
+![chain-of-responsibility-UML.png](https://i.loli.net/2020/11/28/VwsODFXe7ISup6c.png)
 
 
 
@@ -39,7 +39,7 @@
 
 张三使用责任链模式请假流程示意图
 
-![chain-of-responsibility-zhangsan](chain-of-responsibility-zhangsan.png)
+![chain-of-responsibility-zhangsan](https://i.loli.net/2020/11/28/QKCPk5Ixmpir7to.png)
 
 抽象处理类，各个环节处理时统一标准。
 
