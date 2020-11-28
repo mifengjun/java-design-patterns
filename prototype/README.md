@@ -4,13 +4,9 @@
 
 > 用一个已经创建的实例作为原型，通过复制该原型对象来创建一个和原型相同或相似的新对象。
 
-
-
 ![来源：https://refactoringguru.cn/design-patterns/prototype](https://i.loli.net/2020/10/16/waBiVhAvyOptTE3.png)
 
 > 图片来源：https://refactoringguru.cn/design-patterns/prototype
-
-
 
 ## 月饼？盗文章？ 🤔
 
