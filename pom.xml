@@ -28,6 +28,7 @@
         <module>memento</module>
         <module>iterator</module>
         <module>command</module>
+        <module>state</module>
     </modules>
 
     <name>java-design-patterns</name>
