@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>java-design-patterns</artifactId>
+        <groupId>io.github.lvgocc</groupId>
+        <version>1.0</version>
+    </parent>
+
+    <artifactId>state</artifactId>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <url>https://github.com/lvgocc/java-design-patterns/tree/main/state</url>
+
+    <version>1.0</version>
+
+    <developers>
+        <developer>
+            <name>lvgo</name>
+            <email>lvgorice@gmail.com</email>
+            <url>http://lvgo.org</url>
+        </developer>
+    </developers>
+</project>
