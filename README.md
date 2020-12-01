@@ -39,6 +39,8 @@
 - [x] [18. 迭代器模式：你真的“会”遍历list吗？](https://github.com/lvgocc/java-design-patterns/tree/main/iterator)
 - [x] [19. 命令模式：如果把请求变成一个对象，在一些场景更好用！](https://github.com/lvgocc/java-design-patterns/tree/main/command)
 - [x] [20. 状态模式：从工作状态，再到订单状态一点点深入学习状态模式](https://github.com/lvgocc/java-design-patterns/tree/main/state)
+- [x] [21. 中介者模式：还记得你到单位入职的第一天吗？你有没有遇到文中‘王二’的事呢？](https://github.com/lvgocc/java-design-patterns/tree/main/mediator)
+- [x] [22. 访问者模式：](https://github.com/lvgocc/java-design-patterns/tree/main/visitor)
 
 每一篇都有对应的文章配合源码学习，文章通俗易懂。以学渣的姿态来学习学霸的知识，我不善搞深奥的东西，但喜欢将深奥的东西变成简单的东西，我深信复杂度守恒定律，我也相信讲出来的东西是为了让大家能听懂而不是自己秀知识储备而已。听懂掌声。
 
@@ -154,9 +156,9 @@
 - [x] [4. 职责链（Chain of Responsibility）模式：把请求从链中的一个对象传到下一个对象，直到请求被响应为止。通过这种方式去除对象之间的耦合。](https://github.com/lvgocc/java-design-patterns/tree/main/chain-of-responsibility)
 - [x] [5. 状态（State）模式：允许一个对象在其内部状态发生改变时改变其行为能力。](https://github.com/lvgocc/java-design-patterns/tree/main/state)
 - [x] [6. 观察者（Observer）模式：多个对象间存在一对多关系，当一个对象发生改变时，把这种改变通知给其他多个对象，从而影响其他对象的行为。](https://github.com/lvgocc/java-design-patterns/tree/main/observer)
-- [ ] 7.中介者（Mediator）模式：定义一个中介对象来简化原有对象之间的交互关系，降低系统中对象间的耦合度，使原有对象之间不必相互了解。
+- [x] [7. 中介者（Mediator）模式：定义一个中介对象来简化原有对象之间的交互关系，降低系统中对象间的耦合度，使原有对象之间不必相互了解。](https://github.com/lvgocc/java-design-patterns/tree/main/mediator)
 - [x] [8. 迭代器（Iterator）模式：提供一种方法来顺序访问聚合对象中的一系列数据，而不暴露聚合对象的内部表示。](https://github.com/lvgocc/java-design-patterns/tree/main/iterator)
-- [ ] 9.访问者（Visitor）模式：在不改变集合元素的前提下，为一个集合中的每个元素提供多种访问方式，即每个元素有多个访问者对象访问。
+- [x] [9. 访问者（Visitor）模式：在不改变集合元素的前提下，为一个集合中的每个元素提供多种访问方式，即每个元素有多个访问者对象访问。](https://github.com/lvgocc/java-design-patterns/tree/main/visitor)
 - [x] [10. 备忘录（Memento）模式：在不破坏封装性的前提下，获取并保存一个对象的内部状态，以便以后恢复它。](https://github.com/lvgocc/java-design-patterns/tree/main/memento)
 - [ ] 11.解释器（Interpreter）模式：提供如何定义语言的文法，以及对语言句子的解释方法，即解释器。
 

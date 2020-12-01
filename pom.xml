@@ -29,6 +29,8 @@
         <module>iterator</module>
         <module>command</module>
         <module>state</module>
+        <module>mediator</module>
+        <module>visitor</module>
     </modules>
 
     <name>java-design-patterns</name>
