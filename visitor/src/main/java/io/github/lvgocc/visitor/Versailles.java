@@ -11,7 +11,7 @@ package io.github.lvgocc.visitor;
  * @CSDN @see https://blog.csdn.net/sinat_34344123
  * @date 2020/12/1
  */
-public class Versailles {
+public class Versailles extends NetWordLanguage {
 
     private final String interpretation1 = "凡尔赛是法国巴黎的卫星城以及伊夫林省省会，曾是法兰西王朝的行政中心。";
     private final String interpretation2 = "《凡尔赛》是皮埃尔·苏勒执导的剧情片。";

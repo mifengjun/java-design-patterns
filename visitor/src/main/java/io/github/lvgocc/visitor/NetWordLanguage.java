@@ -1,7 +1,7 @@
 package io.github.lvgocc.visitor;
 
 /**
- * 访问者
+ * NetWordLanguage
  * <p>
  * 欢迎跟我一起学习，微信（lvgocc）公众号搜索：星尘的一个朋友
  *
@@ -9,15 +9,14 @@ package io.github.lvgocc.visitor;
  * @version 1.0
  * @blog @see http://lvgo.org
  * @CSDN @see https://blog.csdn.net/sinat_34344123
- * @date 2020/12/1
+ * @date 2020/12/2
  */
-public interface Visitor {
-    /**
-     * 访问网络语凡尔赛
-     *
-     * @param versailles 凡尔赛
-     */
-    void visit(Versailles versailles);
+public abstract class NetWordLanguage {
 
-    void visit(FiveTiaoRen fiveTiaoRen);
+    /**
+     * 将该对象提供给访问者访问
+     *
+     * @param visitor 访问者
+     */
+    public abstract void accept(Visitor visitor);
 }

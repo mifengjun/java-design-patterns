@@ -14,6 +14,13 @@ package io.github.lvgocc.visitor;
 public class You implements Visitor {
     @Override
     public void visit(Versailles versailles) {
+        System.out.println("You 访问凡尔赛");
         System.out.println(versailles.getInterpretation4());
+    }
+
+    @Override
+    public void visit(FiveTiaoRen fiveTiaoRen) {
+        System.out.println("You 访问五条人");
+        System.out.println(fiveTiaoRen.getInterpretation1());
     }
 }
