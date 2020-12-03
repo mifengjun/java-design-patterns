@@ -12,11 +12,11 @@
 
 还记得那些年看过的影视剧吗？或是表情包吗？
 
-![interpreter-1](interpreter-1.jpg)
+![interpreter-1.jpg](https://i.loli.net/2020/12/03/dFSRYxU9AEDji4v.jpg)
 
 
 
-![interpreter-2](interpreter-2.jpg)
+![interpreter-2.jpg](https://i.loli.net/2020/12/03/pazvAJuBRKZhkco.jpg)
 
 你能看懂柯镇恶和“老婆”的眼色吗？
 
@@ -55,7 +55,7 @@
 
 ## 解释器模式类图 📌
 
-![interpreter-UML.png](interpreter-UML.png)
+![interpreter-UML.png](https://i.loli.net/2020/12/03/IrtOF8hdjB3PDnG.png)
 
 这个结构比较简单，定义一个解释接口，然后就是两个具体的解释器
 
