@@ -26,7 +26,7 @@
 
 王二蹑手捏脚的过去了，到了那里“您好，我想打份申请单。” “什么申请？”，“离职申请。“王二淡定的说。
 
-![mediator-wanger-ruzhi](mediator-wanger-ruzhi.png)
+![mediator-wanger-ruzhi.png](https://i.loli.net/2020/12/03/6v5UQJkTwA8YqBZ.png)
 
 
 
@@ -34,7 +34,7 @@
 
 王二最终找到了一个让他满意的地方，然后开始找地方住，所以他开始了繁忙的 “找房之旅” ，一开始，王二一口气就找到了三个房东
 
-![mediator-wanger-zufang](mediator-wanger-zufang.png)
+![mediator-wanger-zufang.png](https://i.loli.net/2020/12/03/SBtYkczJxvgPwIm.png)
 
 ```java
 房东一 = 10平米，无窗
@@ -44,7 +44,7 @@
 
 找了很多，王二也没找到自己心仪的，而此时的王二已经累了。
 
-![mediator-wanger-zufang2](mediator-wanger-zufang2.png)
+![mediator-wanger-zufang2.png](https://i.loli.net/2020/12/03/RdHNVnpkZlYjXtf.png)
 
 最后经历了第 10 个房东的时候，王二终于找到自己满意的房子了。
 
@@ -78,7 +78,7 @@
 
 通过专员的加入，解耦了各个同事之间的耦合，同时降低了各个同事间复杂的交互，~~也避免了不必要的“人才流失”~~
 
-![mediator-wanger-ruzhi2](mediator-wanger-ruzhi2.png)
+![mediator-wanger-ruzhi2.png](https://i.loli.net/2020/12/03/XYe7vWomLqV3FKs.png)
 
 ### 王二找房
 
@@ -86,13 +86,13 @@
 
 当有了“房屋中介”的加入，王二就没那么辛苦了，并且各个房东的资源因为在“房屋中介”这也会让“租房”变得高效起来。
 
-![mediator-wanger-zufang3](mediator-wanger-zufang3.png)
+![mediator-wanger-zufang3.png](https://i.loli.net/2020/12/03/NUi32SgBvtb6X4E.png)
 
 
 
 ## 中介者模式类图 📌
 
-![mediator-UML](mediator-UML.png)
+![mediator-UML.png](https://i.loli.net/2020/12/03/hHZYAVLNRWvd2za.png)
 
 模式结构：
 
