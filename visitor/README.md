@@ -116,9 +116,7 @@ public class Versailles {
 
 看他的样子应该是不知道
 
-
-
-![visitor-unkown.png](visitor-unkown.png)
+![visitor-unkown.png](https://i.loli.net/2020/12/03/fBnOdChGT9mZ2Yj.png)
 
 **You**（你呢？）
 
@@ -210,7 +208,7 @@ lvgo 你知道凡尔赛吗？
 
 最后，我们来看下标准的访问者模式结构图
 
-![visitor-UML](visitor-UML.png)
+![visitor-UML.png](https://i.loli.net/2020/12/03/mKRj7h6eZVp2gt8.png)
 
 这个结构比较复杂
 
