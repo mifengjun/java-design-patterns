@@ -81,7 +81,7 @@ public class Client {
 
 命令模式这篇使用的是通用框架写了一个实现，在这基础上事实上我们可以做很多扩展，比如再 `Invoker` 类中将 command 换成 `List<Command>` 来实现请求的排队、撤销等操作。
 
-![image-20201128142121299](D:%5CIdeaProjects%5Cjava-design-patterns%5Ccommand%5Ccommand-code.png)
+![image-20201128142121299](https://i.loli.net/2020/12/03/ZE2fTd4FHQYhxeo.png)
 
 ## 总结 📚
 
