@@ -168,14 +168,6 @@
 
 　　笔者技术水平、理解能力均有限，如有读者发现有歧义甚至错误的地方，希望可以通过评论或私信或邮箱（lvgorice@gmail.com）等等让我知道的途径提醒笔者改正。
 
-----
-<div align="center">
-    <b>亦或繁星、亦或尘埃。星尘✨，为了梦想，学习技术，不要抱怨、坚持下去💪。</b>
-    <p>关注<b style='color:blue'>星尘的一个朋友</b>获取源码、加群一起交流学习🤓。</p>
-    <img alt='星尘的一个朋友' src='https://i.loli.net/2020/10/22/7swJfMCPrThebVI.png'/>
-</div>
-
-
 # 参（jù）考（rén）文（jiān）献（bǎng）
 
 　　非常感谢以下平台或书籍或个人的无私贡献知识资源，才能够让我有更多机会去学习了解各类知识。同时在此列出系列文章中的全部出处来源，同时后续在各篇独立文章中如有涉及也会尽可能的列出。排名不分先后。
@@ -199,3 +191,11 @@
 - [人人都懂设计模式：从生活中领悟设计模式：Python实现](https://book.douban.com/subject/33399755/)
 
 - [设计模式（Java版）](https://weread.qq.com/web/reader/8cc327d05a60108cc68d859)
+
+
+----
+<div align="center">
+    <b>亦或繁星、亦或尘埃。星尘✨，为了梦想，学习技术，不要抱怨、坚持下去💪。</b>
+    <p>关注<b style='color:blue'>星尘的一个朋友</b>获取源码、加群一起交流学习🤓。</p>
+    <img width="200px" alt='星尘的一个朋友' src='https://i.loli.net/2020/10/22/7swJfMCPrThebVI.png'/>
+</div>
