@@ -199,7 +199,7 @@ Java 官方给出的遍历说明：根据经验，下标要比迭代器更快。
 
 集合本身的目的是存取，目的明确，但如果我们在集合本身增加了遍历操作的话，我们可以看看下图。
 
-![iterator-collection.png](iterator-collection.png)
+![iterator-collection.png](https://i.loli.net/2020/12/06/OL76xKQsJEnMFYm.png)
 
 > 图片来源：https://refactoringguru.cn/design-patterns/iterator
 
