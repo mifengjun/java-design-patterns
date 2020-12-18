@@ -40,7 +40,7 @@
 - [x] [19. 命令模式：如果把请求变成一个对象，在一些场景更好用！](https://github.com/lvgocc/java-design-patterns/tree/main/command)
 - [x] [20. 状态模式：从工作状态，再到订单状态一点点深入学习状态模式](https://github.com/lvgocc/java-design-patterns/tree/main/state)
 - [x] [21. 中介者模式：还记得你到单位入职的第一天吗？你有没有遇到文中‘王二’的事呢？](https://github.com/lvgocc/java-design-patterns/tree/main/mediator)
-- [x] [22. 访问者模式：是“凡尔赛”让我“认清”了访问者模式！](https://github.com/lvgocc/java-design-patterns/tree/main/visitor)
+- [x] [22. 访问者模式：是“凡尔赛”让我“认清”了解释器模式：你能看懂TA的“眼色”吗？访问者模式！](https://github.com/lvgocc/java-design-patterns/tree/main/visitor)
 - [x] [23. 解释器模式：你能看懂TA的“眼色”吗？](https://github.com/lvgocc/java-design-patterns/tree/main/interpreter)
 
 每一篇都有对应的文章配合源码学习，文章通俗易懂。以学渣的姿态来学习学霸的知识，我不善搞深奥的东西，但喜欢将深奥的东西变成简单的东西，我深信复杂度守恒定律，我也相信讲出来的东西是为了让大家能听懂而不是自己秀知识储备而已。听懂掌声。
