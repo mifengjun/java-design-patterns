@@ -28,7 +28,8 @@
 扫描二维码关注 **星尘的一个朋友**，回复 ”源码“ 获取。亦或繁星、亦或尘埃。星尘✨，为了梦想，学习技术，不要抱怨、坚持下去💪。
 
 <div align="left">
-    <img style="width:200px;height:200px;" alt='星尘的一个朋友' src='https://i.loli.net/2020/10/22/7swJfMCPrThebVI.png'/>
+    <img style="float:left; width:200px;height:200px;" alt='星尘的一个朋友' src='https://i.loli.net/2020/10/22/7swJfMCPrThebVI.png'/>
+        <img style="float:none; width:200px;height:200px;" alt='星尘的一个朋友' src='https://i.loli.net/2020/10/22/7swJfMCPrThebVI.png'/>
 </div>
 
 ## 参考资料

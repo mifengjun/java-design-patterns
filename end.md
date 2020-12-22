@@ -22,16 +22,13 @@
 看这么多资料的原因嘛，有两点
 
 1.
-
 目前市面知识要么多是凑数，要么多是营销，在这个人们称为的“知识付费”的时代，已经很难找到从“根本传授知识的“（这也是自己沉淀输出知识的一个原因，希望自己能做到一个朴实无华，作为一个技术人员的角度来真真正正的把自己对这个领域的所见所得输出出去。）
-
 2.
-
 另外一方面就是方便自己学习理解、提高对知识的接受程度，讲真你很难从一个地方学到更多东西，所以我无论学哪个知识点都是会搜罗很多资料去学习，其实在资料选择这一块就是一个非常耗时的过程，因为有很多东西别人说好，但是他不一定适合你。技术这东西更是如此，因为每个人的技术起点不同，只有选取合适自己的“高度”才能学到东西，这也算是“仁者见仁智者见智”的一种体现吧。
 
 ## 部分截图
 
-![posts](https://i.loli.net/2020/12/20/jZ8ArtpGDR2cXQN.png)
+![部分截图](https://i.loli.net/2020/12/20/jZ8ArtpGDR2cXQN.png)
 
 ## 过程
 
@@ -45,7 +42,7 @@
 
 说了这么多我想说的就是，设计模式这个知识点，真的很简单又很难。简单是因为每种设计模式的定义拿出来都能看的懂，难是难在如何，何时的应用。而我希望我写的这个设计模式系列是去应用化的，就是单纯的把设计模式的思想记录下来。我所理解的设计模式就该如此。
 
-GOF的**《设计模式.可复用面向对象软件的基础》**通过一个应用案例的实现，串起了23种设计模式，我想在系列更新完之后也更新一个应用，将 23
+GOF的 **《设计模式.可复用面向对象软件的基础》** 通过一个应用案例的实现，串起了23种设计模式，我想在系列更新完之后也更新一个应用，将 23
 种设计模式尽可能的应用到一个应用案例中去，而不是每个设计模式都涉及具体的应用，因为我觉得这可能会带的人们更关注应用的实现，而不是设计模式的应用，这是我的一些想法。
 
 **
@@ -73,32 +70,12 @@ GOF的**《设计模式.可复用面向对象软件的基础》**通过一个应
 
 越来越多的时候想将自己在技术上的所见所得与人分享或交流，当然能有机会和大佬交谈学到东西就更好了，这样我就可以将知识传承下去了。写《和 lvgo 一起学设计模式》这个系列文章让我学到了很多，感谢所有！
 
-![commit-log](https://i.loli.net/2020/12/20/WrRjE9wYtc7bhKp.png)
+![源码](https://i.loli.net/2020/12/20/WrRjE9wYtc7bhKp.png)
 
 ## 如何获取
 
-大家可以关注公众号回复：`设计模式` 获得这本《和 lvgo 一起学习设计模式》.PDF 以及这个设计模式的 `github 仓库` ，*如果可以，希望你给个 **star** 支持一下我！*
+大家可以关注公众号回复：`设计模式` 获得这本《和 lvgo 一起学习设计模式》 PDF 以及这个设计模式的 `github 仓库` ，*如果可以，希望你给个 **star** 支持一下我！*
 
 ### 写在最后
 
 保持热爱，奔赴山海。
-
----
-
-#### 参考文献
-
-**网站：**
-
-- [https://bugstack.cn/itstack/itstack-demo-design.html](https://bugstack.cn/itstack/itstack-demo-design.html)
-- [http://c.biancheng.net/design_pattern/](http://c.biancheng.net/design_pattern/)
-- [https://refactoringguru.cn/design-patterns](https://refactoringguru.cn/design-patterns)
-- [https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns](https://www.journaldev.com/31902/gangs-of-four-gof-design-patterns)
-- [https://www.runoob.com/design-pattern/design-pattern-tutorial.html](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
-
-**书籍：**
-
-- [可复用面向对象软件的基础](https://book.douban.com/subject/34262305/)
-- [大话设计模式](https://book.douban.com/subject/2334288/)
-- [设计模式之禅（第2版）](https://book.douban.com/subject/25843319/)
-- [人人都懂设计模式：从生活中领悟设计模式：Python实现](https://book.douban.com/subject/33399755/)
-- [设计模式（Java版）](https://weread.qq.com/web/reader/8cc327d05a60108cc68d859)
